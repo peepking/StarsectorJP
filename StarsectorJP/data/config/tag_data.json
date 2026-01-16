@@ -1,0 +1,60 @@
+{
+  "New": {
+    "name": "新規",
+    "color": "buttonShortcut",
+    "width": 150,
+    "putFirst": true,
+    "sort": 10
+  },
+  "Important": {
+    "name": "重要",
+    "width": 150,
+    "putFirst": true,
+    "sort": 20
+  },
+  "Story": {
+    "name": "ストーリー",
+    "width": 150,
+    "putFirst": true,
+    "sort": 29
+  },
+  "Major events": {
+    "name": "主要な出来事",
+    "width": 150,
+    "putFirst": true,
+    "sort": 30
+  },
+  "Colony threats": {
+    "name": "コロニーの脅威",
+    "width": 150,
+    "putFirst": true,
+    "sort": 34
+  },
+  "Accepted": {
+    "name": "受け入れられた",
+    "width": 151,
+    "putFirst": true,
+    "sort": 37.5
+  },
+  "Exploration": {
+    "name": "探索",
+    "width": 150,
+    "putFirst": true,
+    "sort": 45
+  },
+  "Fleet log": {
+    "name": "艦隊ログ",
+    "width": 150,
+    "putFirst": true,
+    "sort": 45
+  },
+  "Luddic shrines": {
+    "name": "ルドの聖堂",
+    "color": [
+      75,
+      200,
+      0,
+      255
+    ]
+  }
+}

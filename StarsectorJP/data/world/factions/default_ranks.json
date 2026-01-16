@@ -1,0 +1,145 @@
+{
+	"ranks":{
+		"factionLeader":{"name":"ハイ・コマンダー"},
+		"houseLeader":{"name":"ハウス・パリアーク"},
+		"houseLeaderMale":{"name":"ハウス・パトリアーク"},
+		"houseLeaderFemale":{"name":"ハウス・マトリアーク"},
+	
+		"spaceSailor":{"name":"宇宙船乗り"},
+		"spaceChief":{"name":"チーフ"},
+		"spaceEnsign":{"name":"エンサイン"},
+		"spaceLieutenant":{"name":"中尉"},
+		"spaceCommander":{"name":"指揮官"},
+		"spaceCaptain":{"name":"艦長"},
+		"spaceAdmiral":{"name":"提督"},
+		"spaceMarshal":{"name":"宇宙マシャル"},
+		
+		"groundPrivate":{"name":"兵士"},
+		"groundSergeant":{"name":"軍曹"},
+		"groundLieutenant":{"name":"中尉"},
+		"groundCaptain":{"name":"艦長"},
+		"groundMajor":{"name":"大尉"},
+		"groundColonel":{"name":"大佐"},
+		"groundGeneral":{"name":"将軍"},
+		
+		"knightCaptain":{"name":"ナイト・キャプテン"},
+		
+		"chiefHighInspector":{"name":"最高検査官"},
+		"deputyStarMarshal":{"name":"副宇宙マシャル"},
+		"guardHighDeputyExecutor":{"name":"警備高副執行官"},
+		
+		"citizen":{"name":"市民"},
+		"executive":{"name":"執行役"},
+		"seniorExecutive":{"name":"上級執行役"},
+		"agent":{"name":"エージェント"},
+		"specialAgent":{"name":"特別エージェント"},
+		
+		"pilot":{"name":"パイロット"},
+		"unknown":{name:"Unknown"},
+		
+		"brother":{name:"Brother"},
+		"sister":{name:"Sister"},
+		"father":{name:"Father"},
+		"mother":{name:"Mother"},
+		"elder":{name:"Elder"},
+		"aristocrat":{name:"Aristocrat"},
+		"terrorist":{name:"Terrorist"},
+		"freedomFighter":{name:"Freedom Fighter"},
+		"clone":{name:"Clone"},
+		
+	},
+	
+	"posts":{
+		"factionLeader":{"name":"ハイ・コマンダー"},
+	
+		"patrolCommander":{"name":"パトロール指揮官"},
+		"fleetCommander":{"name":"艦隊指揮官"},
+		
+		"baseCommander":{"name":"基地指揮官"},
+		"stationCommander":{"name":"ステーション指揮官"},
+		"outpostCommander":{"name":"前哨指揮官"},
+		"portmaster":{"name":"港湾長"},
+		
+		"intelligenceDirector":{"name":"情報部長"},
+		"guardLeader":{"name":"特殊部隊部長"},
+		
+		"supplyOfficer":{"name":"補給担当"},
+		"supplyManager":{"name":"供給管理者"},
+		"medicalSupplier":{"name":"医療供給者"},
+		
+		"administrator":{"name":"管理者"},
+		"militaryAdministrator":{"name":"軍事知事"},
+		"freeAdmin":{"name":"フリーランス管理者"},
+		
+		"guildMaster":{"name":"ギルドマスター"},
+		"communeLeader":{"name":"コミューンリーダー"},
+		"executive":{"name":"執行役"},
+		"seniorExecutive":{"name":"上級執行役"},
+		"minorCriminal":{"name":"小物犯罪者"},
+		"criminal":{"name":"犯罪者"},
+		"spacer":{"name":"宇宙船乗り"},
+		
+		"genericMilitary":{"name":"指揮官"},
+		"marineSquadLeader":{"name":"軍曹"},
+		
+		"trader":{"name":"商人"},
+		"merchant":{"name":"商業者"},
+		"investor":{"name":"投資家"},
+		"commodities_agent":{"name":"商品エージェント"},
+		"entrepreneur":{"name":"起業家"},
+		"nanoforge_engineer":{"name":"ナノフォージ技術者"},
+		
+		"shady":{"name":"怪しい人物"},
+		"gangster":{"name":"ギャングスター"},
+		"smuggler":{"name":"密輸業者"},
+		"fence":{"name":"フェンス"},
+		"armsDealer":{"name":"武器商人"},
+		
+		
+		"citizen":{"name":"市民"},
+		"boss":{"name":"ボス"},
+		"crewBoss":{"name":"乗組員ボス"},
+		
+		"mercenary":{"name":"傭兵士官"},
+		"officer":{"name":"士官"},
+		"officer_for_hire":{"name":"士官（雇用可能）"}, 
+		
+		"investigator":{"name":"主任調査官"},
+		"agent":{"name":"エージェント"},
+		"specialAgent":{"name":"特別エージェント"},
+		
+		"provost":{name:"Provost"},
+		"academician":{name:"Academician"},
+		
+		"securityChief":{name:"Security Chief"},
+		"doctor":{name:"Doctor"},
+		"hacker":{name:"Hacker"},
+		"hermit":{name:"Hermit"},
+		"pensioner":{name:"Pensioner"},
+		"activist":{name:"Activist"},
+		"scientist":{name:"Scientist"},
+		"terrorist":{name:"Terrorist"},
+		"warlord":{name:"Warlord"},
+		"unknown":{name:"Unknown"},
+		"aristocrat":{name:"Aristocrat"},
+		
+		"curate":{name:"Curate"},
+		"synodSubcurate":{name:"Synod Subcurate"},
+		"subcurate":{name:"Subcurate"},
+		"archcurate":{name:"Archcurate"},
+		"heretic":{name:"Heretic"},
+		"shrinePriest":{name:"Curate Sacraria"},
+		"excubitorOrbis":{"name":"エクスキュビトル・オルビス"},
+		"initiate":{"name":"初級者"},
+		"novice":{"name":"初心者"},
+		"pilgrim":{"name":"巡礼者"},
+		
+	},
+}
+
+
+
+
+
+
+

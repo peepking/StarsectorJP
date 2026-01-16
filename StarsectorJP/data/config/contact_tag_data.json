@@ -1,0 +1,24 @@
+{
+  "military": {
+    "name": "軍事",
+    "sort": 10
+  },
+  "trade": {
+    "name": "貿易",
+    "sort": 20
+  },
+  "underworld": {
+    "name": "アンダーワールド",
+    "sort": 30
+  },
+  "science": {
+    "name": "科学",
+    "putFirst": true,
+    "sort": 40
+  },
+  "pather": {
+    "name": "パザー",
+    "putFirst": true,
+    "sort": 50
+  }
+}

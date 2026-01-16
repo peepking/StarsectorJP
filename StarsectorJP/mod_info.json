@@ -1,0 +1,9 @@
+{
+    "id": "StarsectorJP",
+    "name": "StarsectorJP",
+    "author": "peepking",
+    "utility": "true",
+    "version": "1.0.0",
+    "description": "Japanese translation for vanilla. You also need Japanese font.",
+    "gameVersion": "0.98a-RC8"
+}

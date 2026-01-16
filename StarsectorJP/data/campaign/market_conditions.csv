@@ -1,0 +1,173 @@
+name,id,tags,planetary,decivRemove,script,desc,icon,order
+都市化された政体,urbanized_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.UrbanizedPolity,密集した国際的な人口中心であり、あらゆる階層の人々が積み重なった居住複合施設、商業コンコース、モジュラー工房で生活し、働き、そして死んでいきます。,graphics/icons/markets/urbanized_polity.png,130
+産業国家,industrial_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.IndustrialPolity,賑やかな工業中心。地元政府の政策は、他のすべての懸念を犠牲にして、繁栄する産業を奨励しています。,graphics/icons/markets/urbanized_polity.png,130
+農村政体,rural_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RuralPolity,人口がまばらな自給自足の集落と孤立した町からなる政体です。この困難な時代において、外部の者は一般的に疑いの目で見られます。,graphics/icons/markets/rural_polity.png,130
+大規模難民人口,large_refugee_population,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.LargeRefugeePopulation,災害から逃げてきた絶望的な難民たちがここにたどり着きました。難民は社会の底辺で生活しており、より良い状況への機会はほとんどなく、緊張した半合法的な状態で国内インフラに負担をかけています。全体的な生産が減少しています。劣悪な生活環境から逃れようとしている人々の中に、より多くの見込みのある乗組員が見つかる可能性があります。,graphics/icons/markets/refugee_population.png,140
+ヴォルターニアン・ロブスター・ペン,volturnian_lobster_pens,"show_in_codex, codex_unlockable",TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,いくつかの古代地球の種と少しの想像力が組み合わさって、この生物が生まれました。これはボルターニの海底の圧倒的な深さで自然に育ちます。その味は特別だと言われています。,graphics/icons/markets/lobster_pens.png,137
+副需要,vice_demand,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ViceDemand,ここでは副産物の需要が異常に高いです。,graphics/icons/markets/vice_demand.png,145
+組織犯罪,organized_crime,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.OrganizedCrime,犯罪活動は麻薬や収穫された臓器を生み出します。さまざまな犯罪ボスや地元市民による手持ち武器の需要が増加し、地元当局による海兵隊員の需要も増加します。,graphics/icons/markets/organized_crime.png,148
+フロンティア,frontier,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Frontier,人口の中心から遠く離れたフロンティアでは、単なる生存、自立、そして必要最低限のものだけがルールです。武器や物資の需要は増加し、贅沢品の需要は減少しています。,graphics/icons/markets/frontier.png,130
+艦船解体センター,shipbreaking_center,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ShipbreakingCenter,この星系の船体解体の主要な拠点であり、主要な勢力の海軍や星系のコアワールドからの多くの他のクライアントによって、ハルクがここで解体されることが委託されています。,graphics/icons/markets/shipbreaking.png,360
+交易センター,trade_center,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeCenter,主要な貿易の中心地であり、星系中の商船がここに寄港し、商品を買ってくれる買い手を見つけることを期待しています。そして、逆に良い利益のために何かを購入することを求めています。,graphics/icons/markets/trade_center.png,280
+非文明化,decivilized,,,,com.fs.starfarer.api.impl.campaign.econ.Decivilized,ここには安定した支配政権は存在しません。文明は崩壊しており、現在の人口は実質的に不明ですが、生存者、盗賊、略奪者のグループが確認されています。,graphics/icons/markets/decivilized.png,130
+未開発サブポピュレーション,decivilized_subpop,,,,com.fs.starfarer.api.impl.campaign.econ.DecivilizedSubpop,文明は$marketの一部に復活しましたが、それはしばしばガウスライフルの先端によってもたらされたものです。しかし、効果的に未知の生存者、盗賊、略奪者の集団が依然として周辺に残っています。,graphics/icons/markets/decivilized.png,130
+放棄されたステーション,abandoned_station,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AbandonedStation,このステーションは放棄されています。,graphics/icons/markets/abandoned.png,130
+コテージ産業,cottage_industry,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.CottageIndustry,$Marketは、低技術で労働集約型の軽工業の基盤がしっかりとしています。シンプルな有機燃料や材料の需要が高まり、効率的ではないものの魅力的に手作りされた国内製品の供給を提供します。,graphics/icons/markets/cottage_industry.png,230
+前哨基地,outpost,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Outpost,$Marketは、厳格な公式指揮構造を持つ駐屯地や大型宇宙船のように運営されています。これにより安定性が向上しますが、内部の安全問題に対処するために一部の人員が必要です。,graphics/icons/markets/outpost.png,130
+ルド教団多数派,luddic_majority,"show_in_codex, codex_unlockable",,TRUE,com.fs.starfarer.api.impl.campaign.econ.LuddicMajority,,graphics/icons/markets/luddic_majority.png,142
+ステルス地雷原,stealth_minefields,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.StealthMinefields,隠された鉱山のネットワークが、面倒な外部者からの$marketの安全を提供します。安定性が向上します。,graphics/icons/markets/stealth_mines.png,510
+地域首都,regional_capital,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RegionalCapital,行政、治安、物流の主要な拠点です。安定性を向上させます。,graphics/icons/markets/capital.png,500
+自由港,free_market,show_in_codex,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FreeMarket,地元の港湾当局は、取引される貨物にほとんど規制を課していません。移民管理も緩和されており、より多くの人々が流入していますが、その中には疑わしい性格の者も含まれています。このため、他の勢力がこのコロニーを不信の目で見る可能性があります。,graphics/icons/markets/free_port.png,141
+移民閉鎖,closed_immigration,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ClosedImmigration,公式には、$marketへの移民は許可されていません。実際には、これにより全体的な移民が大幅に減少し、特定の種類の犯罪者が活動する余地が生まれています。,graphics/icons/markets/vice_demand.png,142
+,,,,,,,,
+居住不可能な世界,uninhabitable,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,不毛な惑星であり、$marketの表面は私たちが知っている有機生命を支えることができず、密閉された人工生態系の外での農業は不可能です。,graphics/icons/markets/uninhabitable_wide.png,10
+氷の世界,ice,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldIce,市場の平均温度は水の凍結点を大きく下回っており、いくつかの一般的な地球の大気ガスは雪として降ります。軽く揮発性の元素の吹き溜まりや氷河は採取可能です。,graphics/icons/markets/ice_world_wide.png,10
+砂漠の世界,desert,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldDesert,$市場: 砂漠の惑星。乾燥耐性の生態系が、軽いマスクで呼吸可能な大気を維持しています。農業はほぼ不可能です。,graphics/icons/markets/desert_world_wide.png,10
+乾燥した世界,arid,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldArid,$Marketは広大で乾燥した平原と荒れ地に覆われています。水は珍しく、大規模な農業は困難です。,graphics/icons/markets/arid_world_wide.png,10
+水の惑星,water,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldWater,$marketの気候は居住に適していますが、農業は主に水産養殖に限られており、居住地や産業の発展には高度に専門化されたインフラが必要です。,graphics/icons/markets/water_world_wide.png,10
+ジャングルワールド,jungle,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldJungle,$Marketは、豊かな植生とエキゾチックな生物に覆われた湿気の多い暖かいジャングルの世界であり、農業や恒久的なインフラの維持が困難です。,graphics/icons/markets/jungle_world_wide.png,10
+テラワールド,terran,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTerran,$Marketは、セクター内で見つけられる中で旧地球の状態に最も近く、農業や定住に理想的な条件を提供しています。,graphics/icons/markets/terran_world_wide.png,10
+不毛な辺境世界,barren_marginal,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldBarrenMarginal,過酷で容赦のない、$marketの外部環境は、空気マスクと防護装備を持つ人間にとってはかろうじて生存可能ですが、特定の工学的に改良されたテラフォーミング地衣類には十分耐えられる環境です。,graphics/icons/markets/barren_desert_wide.png,10
+トワイライト・ワールド,twilight,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTwilight,主星に潮汐固定されているか、ほぼその状態にある$marketは、季節の長さに相当する日を持つ改造された世界です。昼夜の温度変化は、工学的に設計された地球の生命にとっても厳しいものです。「文明化された」穏やかな生態系の島々は、太陽シェードやミラーの巧妙な使用によって維持されています。,graphics/icons/markets/twilight_terran_world.png,10
+ツンドラ世界,tundra,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTundra,テラフォーミングにより、$marketに地球の生命がもたらされましたが、この世界は地球の氷河期の最深部と同じくらい寒いままです。何百万平方キロメートルが氷河に覆われている一方で、タイガの州や温暖な条件が支配する広大なステップも存在します。,graphics/icons/markets/tundra_terran_wide.png,10
+氷火山の世界,cryovolcanic,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,最も深い寒さを超えて凍った世界、メタンの雪が水氷の山々に降り注ぎ、アンモニアを噴出する火山が噴火します。星間放射線が揮発性物質を分解し、窒素や酸素などの軽いガスの大気を形成し、水素は宇宙へと吹き飛ばされます。,graphics/icons/markets/cryo_world_wide.png,10
+,,,,,,,,
+反体制派人口,dissident,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Dissident,$Marketは、反体制派、反乱者、自由思想家、アーティスト、その他のトラブルメーカーの捨て場です。群衆を取り締まるための武器と海兵隊員の需要が増加します。移住により乗組員の供給が増加します。,graphics/icons/markets/dissidents.png,139
+本部,headquarters,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Headquarters,"$Marketは支配政権の軍事指揮および物流作戦の中心です。市場の安定性が向上します。
+
+$marketの艦隊における士官の質と数が増加します。",graphics/icons/markets/headquarters.png,360
+水耕栽培コンプレックス,hydroponics_complex,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Hydroponics,封じられた生物圏農業生産施設で、軌道上や過酷な世界の表面での農業を可能にします。運営には乗組員、オーガニック成長媒体、維持管理のための重機が必要です。,graphics/icons/markets/hydroponics.png,120
+,,,,,,,,
+人口,population_1,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,ここには常に数十人しか住んでいません。,graphics/icons/markets/population01.png,20
+人口,population_2,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$marketNameには数百人の人々が住んでいます。,graphics/icons/markets/population02.png,20
+人口,population_3,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,何千人もの人々が$marketNameを故郷と呼んでいます。,graphics/icons/markets/population03.png,20
+人口,population_4,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$marketNameには数万人が住んでいます。,graphics/icons/markets/population04.png,20
+人口,population_5,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$MarketNameには数十万人の人々が住んでいます。,graphics/icons/markets/population05.png,20
+人口,population_6,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$marketNameの人口は数百万です。,graphics/icons/markets/population06.png,20
+人口,population_7,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$MarketNameは数千万の人々が住む世界です。,graphics/icons/markets/population07.png,20
+人口,population_8,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$MarketNameは、星系の中で数億人の人口を持つ数少ない世界の一つです。,graphics/icons/markets/population08.png,20
+人口,population_9,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,危険な銀河における人類の貴重な避難所、%sは数十億の魂が住む場所です。,graphics/icons/markets/population09.png,20
+人口,population_10,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$MarketNameは、星系内で支配的な人口中心であり、数百億の人間が住むオールドアースに対抗する存在です。,graphics/icons/markets/population10.png,20
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+# イベント関連の市場状況,,,,,,,,
+食糧不足,event_food_shortage,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FoodShortage,"$marketで一時的な食料不足が発生しています。
+
+- 安定性が$stabilityPenalty減少しました
+
+- 不足を解消するために約$neededFoodユニットの食料が必要です
+
+- 食料供給の減少により食料価格が上昇しました
+
+- 食料販売による評判と経験値が増加しました",graphics/icons/markets/food_shortage.png,1000
+最近の動乱,recent_unrest,show_in_codex,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RecentUnrest,$Marketは最近、激動の出来事を経験しており、安定性に持続的な影響を与えています。,graphics/icons/markets/recent_unrest.png,2000
+貿易の混乱,event_trade_disruption,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeDisruption,"$marketへの出入りをする貿易艦隊が大きな損失を被っています。海賊行為や戦争が原因である可能性が高いです。
+
+影響を受けている商品は以下の通りです：
+$commoditySummary",graphics/icons/markets/trade_disruption.png,1100
+密輸,event_smuggling,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Smuggling,"$marketでは密輸活動が活発に行われています。
+
+- 安定性が$smugglingPenalty減少しました。",graphics/icons/markets/smuggling.png,1000
+星系の懸賞金,event_bounty,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.SystemBounty,,graphics/icons/markets/bounty.png,1000
+ロゴAIコア,rogue_ai_core,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RogueAICore,"$marketの近くで動作している反乱AIコアがあります。その長期的な計画や野望は、自らの生存を超えて不明です。
+
+少なくとも、その可能な行動に対して警戒する必要があるため、日常の運営は効率が低下し、不安を煽る噂が広がる温床となっています。",graphics/icons/markets/rogue_ai.png,1200
+AIコア管理者 (非表示),ai_core_admin,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AICoreAdmin,コアが取り除けなくなるときに追跡する隠れた条件。アイコンは必要ありません。,graphics/icons/markets/rogue_ai.png,1000
+海賊活動,pirate_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.bases.PirateActivity,"この星系では、海賊が輸送や植民地を標的にしている兆候が見られます。港の検査官が目をつぶるよう圧力をかけられたり、貨物のマニフェストに不一致があったり、その他の犯罪活動が増加しています。
+
+海賊はおそらく、比較的近くに拠点を持っているでしょう。",graphics/icons/markets/pirate_activity.png,1300
+敵対的活動,hostile_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.events.HostileActivity,,graphics/icons/markets/pirate_activity.png,1350
+海賊の休息,piracy_respite,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.PiracyRespite,このコロニーは、星系で一般的な海賊の略奪からの一時的な安息を経験しています。,graphics/icons/markets/respite40.png,1375
+確立された政体,established_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.EstablishedPolity,,graphics/icons/markets/established_polity.png,1380
+封鎖中,blockaded,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Blockaded,このコロニーがある星系は封鎖されており、通常の貿易輸送は嫌がらせやそれ以上の被害を受けています。この影響は、封鎖している勢力が去るか、完全に敗北するまで続きます。,graphics/icons/markets/blockade.png,1385
+ルド左派の細胞,pather_cells,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathCells,,graphics/icons/markets/pather_cells.png,1400
+,,,,,,,,
+# 単独条件,,,,,,,,
+貿易の混乱,shipping_disruption,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ShippingDisruption,,graphics/icons/markets/trade_disruption.png,1000
+,,,,,,,,
+# 雑多,,,,,,,,
+通信中継（隠し）,comm_relay,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.CommRelayCondition,隠れた条件; アイコンは必要ありません。,,
+,,,,,,,,
+,,,,,,,,
+# プロシージャル生成条件,,,,,,,,
+居住可能,habitable,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.Habitable,人間は$marketの表面条件に無防備でさらされても生存することができます。,graphics/icons/markets/habitable.png,21
+,,,,,,,,
+,,,,,,,,
+散在する遺跡,ruins_scattered,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,この世界は、崩壊前にドメインの大プロジェクトによってわずかに影響を受けただけです。散在する壊れたドームだけが残っており、貴重な資材の失われたキャッシュを抱えているかもしれません。,graphics/icons/markets/ruins_scattered.png,100
+広範囲にわたる廃墟,ruins_widespread,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,広範囲にわたる廃墟、放射線源からの信号、そして泡状のセラメタル構造物の特徴的なぼやけたレーダーピンが$market全体に見られ、ドメインの拡張期後期にさかのぼる小規模ながらも組織的な植民地化の努力の証拠となっています。,graphics/icons/markets/ruins_widespread.png,100
+広範な遺跡,ruins_extensive,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketの表面には廃墟となった都市が点在しており、壊れた心から溢れ出る傷だらけの道路や崩れたマグレールの線路、工場の骨組み、アクアポニックスドーム、通信塔が広がっています。,graphics/icons/markets/ruins_extensive.png,100
+広大な遺跡,ruins_vast,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Marketは広大な廃墟に覆われており、都市、工場、鉱山、農場、家々が存在します。死者は恐ろしいほどの数で、回収可能な資材、商品、道具、武器と絡み合っています。この世界は、ドメインの銀河植民地化とヘゲモニーのプロジェクトの傲慢さの墓場です。,graphics/icons/markets/ruins_vast.png,100
+,,,,,,,,
+,,,,,,,,
+寒冷,cold,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketで見られる低温は、通常の操作を行うために特別な装備を必要とし、生命維持やインフラに複雑さをもたらします。,graphics/icons/markets/cold.png,25
+極寒,very_cold,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,極端な寒冷は、$marketでの安全な作業を行うために特別な装備とプロトコルを必要とし、物流、ライフサポート、インフラに複雑さをもたらします。,graphics/icons/markets/cold_extreme.png,25
+,,,,,,,,
+熱い,hot,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketの高温条件は、通常の運用を行うために特別な装備を必要とし、ライフサポートやインフラを複雑にしています。,graphics/icons/markets/hot.png,25
+非常に暑い,very_hot,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,極端な熱は、$marketで安全に運用するために特別な装備とプロトコルを必要とし、物流、ライフサポート、インフラの長期的な安定性を深刻に複雑にします。,graphics/icons/markets/hot_extreme.png,25
+,,,,,,,,
+,,,,,,,,
+テクトニック活動,tectonic_activity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketの表面は不安定で、激しい地震が発生しやすいです。構造物には特別な補強が必要で、掘削には大きなリスクが伴います。,graphics/icons/markets/tectonic.png,26
+極端なテクトニック活動,extreme_tectonic_activity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,市場の地殻は、極端な地震と壊滅的な火山活動によって混沌と揺れ動いています。あらゆる作業には、非常に注意を払い、何重にも冗長な警告システムを使用する必要があり、最悪の危険を回避することが求められます。この世界での建設は、常に準永久的なものと見なされるべきです。,graphics/icons/markets/tectonic_extreme.png,26
+,,,,,,,,
+,,,,,,,,
+大気なし,no_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketには顕著な大気は存在しません。その表面は宇宙の厳しい風化にさらされており、放射線と微小隕石の絶え間ない降雨にさらされています。,graphics/icons/markets/atmosphere_none.png,27
+薄い大気,thin_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,希薄な大気が$marketの表面にしっかりと付着しています。,graphics/icons/markets/atmosphere_thin.png,27
+有毒な大気,toxic_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketの大気は非常に有毒で腐食性が強く、無防備な表面を侵食し、居住空間は完全に密閉する必要があります。,graphics/icons/markets/atmosphere_toxic.png,27
+濃密な大気,dense_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketの表面は厚い大気に覆われており、頂上では乱れた渦が発生し、最下部では粘り気のあるスープのような状態です。センサーは機能が制限されており、操作は慎重に行う必要があります。,graphics/icons/markets/atmosphere_dense.png,27
+,,,,,,,,
+,,,,,,,,
+穏やかな気候,mild_climate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.MildClimate,$marketの気候は穏やかで優しいです。毎日の出日には軽い霧が迎え、日没の際には魅力的に輝く柔らかな雲の中に退いていきます。,graphics/icons/markets/climate_mild.png,28
+極端な天候,extreme_weather,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketの空には、雷を伴う激しい嵐が吹き荒れています。軌道から見ると壮麗な美しさですが、地表では厳しい環境条件を生み出し、輸送や居住が非常に困難になります。,graphics/icons/markets/weather_extreme.png,28
+,,,,,,,,
+低重力,low_gravity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LowGravity,$marketの表面では重力が非常に低いですが、ゼロ重力を大きく上回っています。摩擦、重量、圧力のダイナミクスが変化した条件に対処するために必要な非標準的な手続きにより、（比較的）重い機械のワークフローと操作は複雑になります。,graphics/icons/markets/gravity_low.png,24
+高重力,high_gravity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.HighGravity,$marketの表面の重力は非常に高く、圧倒的です。人間は通常の移動のために動力付き外骨格を必要とし、基本的な動作さえも疲れるものとなります。継続的な居住は、せいぜい厳しいものです。すべての作業は、転倒の危険が高まり、特別な工学的対策が十分な警戒心を持って行われない場合、構造崩壊の危険が伴います。,graphics/icons/markets/gravity_high.png,24
+,,,,,,,,
+放射線汚染,irradiated,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketの表面は放射線によって荒廃しています。生きている存在は、ここで長く生きるためにはシールドされた生息地に閉じ込められなければなりません。未強化の回路やナノスケールの材料、機械もこの過酷な条件下では急速に故障します。,graphics/icons/markets/irradiated.png,29
+,,,,,,,,
+,,,,,,,,
+敵対的生物圏,inimical_biosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LCAttractorLow,$marketの生物圏は、無防備な人間にとって致命的です。生物学者にとっては興味深い条件ですが、表面技術者は日常業務を行う際に厳格な隔離プロトコルに妨げられています。,graphics/icons/markets/inimical_biosphere.png,30
+,,,,,,,,
+水に覆われた表面,water_surface,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,これは、着陸、歩行、または建設するための実質的な固体表面がない海洋世界です。特殊な訓練と装備が必要なため、作業は複雑になります。,graphics/icons/markets/water_covered.png,31
+,,,,,,,,
+貧弱な光,poor_light,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketの主星の光は、この世界にわずかな明かりとエネルギーしか提供しません。,graphics/icons/markets/poor_light.png,32
+暗闇,dark,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$marketの表面は暗く影に満ちており、主星からの照明はほぼゼロです。,graphics/icons/markets/darkness.png,32
+,,,,,,,,
+隕石衝突,meteor_impacts,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,この世界は、驚くべき速度で定期的な隕石の雨にさらされています。たとえ一時的な住人であっても、常に空を警戒する必要があります。恒久的な施設は、深く埋めてしっかりと強化するのが最善です。,graphics/icons/markets/meteor_impacts.png,33
+,,,,,,,,
+,,,,,,,,
+汚染,pollution,,,,com.fs.starfarer.api.impl.campaign.econ.Pollution,人間の産業は、この世界をダイオキシン、硫黄化合物、灰、そして崩壊する放射性塵の静かな ticking で満たしました。プラスチックの破片がフォームメタルの破片に付着し、空は死んだチャンネルに調整されています。,graphics/icons/markets/pollution.png,110
+,,,,,,,,
+,,,,,,,,
+希薄な鉱石鉱床,ore_sparse,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,ここにはいくつかの希薄な鉱石鉱床がありますが、その採掘はほとんど経済的ではないため、産業的な関心よりも学術的な関心の方が強いです。,graphics/icons/markets/ore_sparse.png,50
+中程度の鉱石鉱床,ore_moderate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$Marketには適切な経済条件下で利益を上げることができる中程度の鉱石鉱床があります。,graphics/icons/markets/ore_moderate.png,50
+豊富な鉱石鉱床,ore_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$marketには、豊富で広範囲にわたり、利益を上げられる鉱石の埋蔵量があります。,graphics/icons/markets/ore_abundant.png,50
+豊富な鉱石鉱床,ore_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,豊富な鉱物資源が$marketの地殻内に厚い格子状に形成されており、素晴らしい利益を得るためには野心的な産業家が必要です。,graphics/icons/markets/ore_rich.png,50
+超富裕鉱床,ore_ultrarich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$marketには、ドメイン時代の伝説的な鉱業メガコーポの想像を超えた、ミダスの手に触れたような鉱物の富が存在します。,graphics/icons/markets/ore_ultrarich.png,50
+,,,,,,,,
+,,,,,,,,
+希少鉱石の希薄な鉱床,rare_ore_sparse,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,ここにはいくつかの希少な超冥王星鉱石の鉱床がありますが、その採掘はほとんど経済的ではないため、産業的な関心よりも学術的な関心の方が強いです。,graphics/icons/markets/rareore_sparse.png,60
+中程度の希少鉱石鉱床,rare_ore_moderate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$Marketには、持続的な産業と投資があれば、利益を上げることができる適度な超鉱物の埋蔵量があります。,graphics/icons/markets/rareore_moderate.png,60
+豊富な希少鉱石鉱床,rare_ore_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$marketの地殻には豊富な超プルトニウム鉱床が存在し、価値ある軍閥や大物の野望を支えるのに十分です。,graphics/icons/markets/rareore_abundant.png,60
+豊富な希少鉱石鉱床,rare_ore_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,厚いトランスプルトニウムの帯が$marketの地殻を通って栄光のように広がり、手を伸ばしてそれを掴む者に偉大で強力な力を約束します。,graphics/icons/markets/rareore_rich.png,60
+超富裕な希少鉱石鉱床,rare_ore_ultrarich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,センサーグリッド上で信じられない密度で輝く超冥王星鉱床は、世界を灰に焼き尽くす強大な戦艦団を築く力の前兆を呼び起こします。あるいは、ドメインの崩壊前のサイクルに存在したクリスタルタワーの政体にとっての栄光と富の時代をもたらすかもしれません。,graphics/icons/markets/rareore_ultrarich.png,60
+,,,,,,,,
+,,,,,,,,
+揮発性物質の追跡,volatiles_trace,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,ここで見つかった揮発性物質の痕跡は、収穫する価値がほとんどありません。,graphics/icons/markets/volatiles_trace.png,40
+拡散揮発物質,volatiles_diffuse,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,ここでは拡散性揮発物が見つかり、工業的抽出に十分な量があるかもしれません。,graphics/icons/markets/volatiles_diffuse.png,40
+豊富な揮発性物質,volatiles_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$marketから豊富な揮発性物質を経済的に抽出できます。,graphics/icons/markets/volatiles_abundant.png,40
+豊富な揮発性物質,volatiles_plentiful,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$Marketは、豊かで深く、強力な揮発性物質の源泉である世界規模の場所です。,graphics/icons/markets/volatiles_plentiful.png,40
+,,,,,,,,
+,,,,,,,,
+有機物の追跡,organics_trace,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$Marketは有機物の備蓄がほとんど枯渇していますが、いくつかの採取は可能です。,graphics/icons/markets/organics_trace.png,38
+一般的な有機物,organics_common,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$market には経済的に利用可能な有機物の埋蔵量があります。,graphics/icons/markets/organics_common.png,38
+豊富な有機物,organics_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$marketの表面下には、富の川が流れている - それを見つけて引き出す者のために。,graphics/icons/markets/organics_abundant.png,38
+豊富な有機物,organics_plentiful,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$marketの深く暗いプールの上に、貴重な有機物の貯水池が噴き出し、下に隠された富の海が待っていることを約束しています。,graphics/icons/markets/organics_plentiful.png,38
+,,,,,,,,
+,,,,,,,,
+貧弱な農地,farmland_poor,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,テラの植物はここでは成長が鈍く、疲れ切っています。これらの土地で実を結ぶためには、絶望に等しい才能を持つ農夫が必要です。,graphics/icons/markets/farmland_poor.png,70
+適切な農地,farmland_adequate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,堅牢な地球互換の生態系により、$marketで農業の栽培が行えるようになります。,graphics/icons/markets/farmland_adequate.png,70
+豊かな農地,farmland_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$marketの農地は、これらの肥沃な土地で働く農民に豊かな収穫をもたらすことを約束しています。,graphics/icons/markets/farmland_rich.png,70
+豊かな農地,farmland_bountiful,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$Marketは真のエデンのようで、花が咲き乱れ、豊かで、植物の生命で輝いています。枝は低く垂れ、果実をたくさん実らせています。黄金の穀物の畑は草の風に揺れています。,graphics/icons/markets/farmland_bountiful.png,70
+,,,,,,,,
+軌道ソーラーアレイ,solar_array,"show_in_planet_list, planet_search",TRUE,,com.fs.starfarer.api.impl.campaign.econ.SolarArray,この惑星は、軌道上に太陽シェードまたはミラーの配列を持ち、それが慎重に配置されて地表の条件を地球の基準に近づけています。,graphics/icons/markets/solar_shade.png,101

@@ -1,0 +1,81 @@
+name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
+基本モッド仕様,modspec,modspec,,,1,1000,1,,graphics/icons/cargo/modspec2.png,ui_chip_pickup,ui_modspec_drop,com.fs.starfarer.api.campaign.impl.items.ModSpecItemPlugin,,さまざまな船体にこの改造を適用するためのノート、ガイドライン、および実用的な例のコレクション。,50
+,,,,,,,,,,,,,,,
+# 工業スロットアイテム,,,,,,,,,,,,,,,
+腐敗したナノフォージ,corrupted_nanoforge,"nanoforge, pather4, colony_item, codex_unlockable",Domain Restricted,,50000,1000,1,HIGH,graphics/icons/cargo/nanoforge_corrupted.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,"heavyindustry, orbitalworks","必要な原材料と人間の支援があれば、工業規模にまで自らを構築できる強力で多用途な製造「ブラックボックス」。
+
+このナノフォージはかつての輝きを失っており、欠陥のない部品を安定して生産することはできません。それでも、ナノフォージにアクセスできること自体が宇宙船建造においては一歩前進です。",139
+新鮮なナノフォージ,pristine_nanoforge,"nanoforge, hist3t, pather4, colony_item, codex_unlockable",Domain Restricted,,250000,1000,1,EXTREME,graphics/icons/cargo/nanoforge_pristine.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,"heavyindustry, orbitalworks","必要な原材料と人間の支援があれば、工業規模にまで自らを構築できる強力で多用途な製造「ブラックボックス」。
+
+このナノフォージは、少なくともそのオンボード診断によれば新品同様です。実際には、セクター全体の製造状態を考慮すると、欠陥のない宇宙船部品を得ることは依然として課題ですが、このナノフォージは最高のものです。",139.1
+シンクロトロンコア,synchrotron,"hist3t, pather4, planet_search, colony_item, codex_unlockable",Domain Restricted,,250000,1000,1,EXTREME,graphics/icons/cargo/synchrotron_core.png,ui_cargo_special_ultratech_pickup,ui_cargo_special_ultratech_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,fuelprod,ファームウェアとシードナノテクノロジーを搭載した特殊なナノフォージで、工業規模の反物質生産を可能にするシンクロトロンに自らを構築します。,139.2
+軌道融合ランプ,orbital_fusion_lamp,"hist3t, pather4, planet_search, colony_item, codex_unlockable",Fabrique Orbitale,,150000,1000,1,EXTREME,graphics/icons/cargo/fusion_lamp.png,ui_cargo_special_ultratech_pickup,ui_cargo_special_ultratech_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,population,"惑星に十分な光と熱を提供できる小型の可変出力融合炉。
+
+安全に運転するには膨大な量の揮発性物質が必要です。需要が満たされない場合、炉は潜在的に危険な不安定性に苦しみ、出力の制御不能な急増を引き起こす可能性があります。この装置が本質的に安全でない設計なのか、単に安全に使用されていないのかについての訴訟は、崩壊時にドメインの裁判所で進行中でした。",135
+ハイパーシュントタップ,coronal_portal,"hist3t, pather8, planet_search, colony_item, codex_unlockable",Domain Restricted,,300000,1000,1,EXTREME,graphics/icons/cargo/hypershunt_tap.png,ui_cargo_special_ultratech_pickup,ui_cargo_special_ultratech_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,population,"近くのコロナハイパーシュントに接続するために起動できる小型のワームホールインターフェースで、コロニーに事実上無限の電力を提供します。
+
+運転には工業規模のトランスプルトニクスが必要で、最初はワームホールを開くために使用され、その後、引き出された電力が自己持続可能になると、ワームホールの安定性を維持するための複雑なアブレーティブプロセスで消費されます。供給の中断はタップの完全なシャットダウンを必要とします。",137
+自律的マントルボア,mantle_bore,"hist3t, pather4, planet_search, colony_item, codex_unlockable",Eridani-Utopia Terraforming,,80000,1000,1,EXTREME,graphics/icons/cargo/terraforming_bore.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,mining,セクター内に機能する制御オーバーライドユニットが残っていないと考えられていますが、ボア自体は独立した（時には予測不可能な）運用が可能です。自動モードのフェイルセーフは、居住可能な世界での使用を禁止します。,140
+触媒コア,catalytic_core,"hist3t, pather4, planet_search, colony_item, codex_unlockable",Ko Combine,,100000,1000,1,EXTREME,graphics/icons/cargo/catalytic_core.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,refining,浸透物理の驚くべき特性によって、精製作業の効果を大幅に向上させます。運転には、重要な大気圧を持つ惑星で達成するのが難しいスケールの真空へのアクセスが必要です。,145
+土壌ナノ粒子,soil_nanites,"hist3t, pather4, planet_search, colony_item, codex_unlockable",Eridani-Utopia Terraforming,,60000,1000,1,EXTREME,graphics/icons/cargo/soil_nanites.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,farming,自然のプロセスが行う速度をはるかに超えた土壌の改良と回復を可能にします。ドメインナノ粒子安全規制4324、サブセクション81は、トランスプルトニウム鉱石や揮発性物質の鉱床がある世界での使用を禁止しており、残念ながら内蔵のフェイルセーフは機能しているようです。,150
+バイオファクトリー胚,biofactory_embryo,"hist3t, pather4, planet_search, colony_item, codex_unlockable",Exodyne Biotech,,120000,1000,1,EXTREME,graphics/icons/cargo/biofactory_embryo.png,ui_cargo_special_biotech_pickup,ui_cargo_special_bio_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,lightindustry,消費財の目を眩ませるような配列は、製造されるのではなく成長することができます。完全に押し出されたバイオファクトリーは、居住可能な世界が提供できる日光、土壌栄養素、大気条件の微妙なバランスの中でのみ繁栄します。人工環境でこれらの条件を模倣しようとする試みは常に失敗し、工場は病気になり、遺伝子にコードされたフェイルセーフによるものと考えられます。,155
+フラーレンスプール,fullerene_spool,"hist3t, pather4, planet_search, colony_item, codex_unlockable",Fabrique Orbitale,,150000,1000,1,EXTREME,graphics/icons/cargo/fullerene_spool.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,"spaceport, megaport",宇宙エレベーターの建設に不可欠な超強力なカーボンナノメッシュケーブル。惑星の表面と低軌道間の物流の効率を大幅に向上させます。,160
+プラズマダイナモ,plasma_dynamo,"hist3t, pather4, planet_search, colony_item, codex_unlockable",Fabrique Orbitale,,100000,1000,1,EXTREME,graphics/icons/cargo/plasma_dynamo.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,mining,適切なガス巨星の大気から揮発性物質を効率的かつ壮観に抽出するための惑星規模のプラズマネットを生成する工業システムの超伝導体フランジ付き中心部。,165
+クライオアリズメティックエンジン,cryoarithmetic_engine,"hist3t, pather4, planet_search, colony_item, codex_unlockable",Domain Restricted,,200000,1000,1,EXTREME,graphics/icons/cargo/cryoarithmetic_engine.png,ui_cargo_special_ultratech_pickup,ui_cargo_special_ultratech_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,"patrolhq, militarybase, highcommand","計算を行う際に熱くなるのではなく冷たくなることで熱力学の第二法則に違反する量子コンピュータ。
+
+巨大な惑星規模の触手ネットワークが自らを押し出し、熱を成長と継続的な計算の燃料として使用します。惑星の表面が熱いほど、計算エンジンはより効果的です。比類のない処理能力は、物流と戦略的計画にとっての恩恵です。",170
+戦闘ドローン複製装置,drone_replicator,"hist3t, pather4, colony_item, codex_unlockable",Ko Combine,,60000,1000,1,EXTREME,graphics/icons/cargo/combat_drone_replicator.png,ui_cargo_special_military_pickup,ui_cargo_special_military_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,"grounddefenses, heavybatteries","さまざまな惑星防衛や侵略、地元のセキュリティ行動に関連するタスクに適した複数のドローンバリアントを大量生産します。
+
+その使用は崩壊の何サイクルも前にドメインによって禁止されていたため、ペルセアンセクターで稼働する例を見つけるのは驚きです。",175
+ディールメーカー・ホロスイート,dealmaker_holosuite,"hist3t, pather4, colony_item, codex_unlockable",Mbaye-Gogol,,120000,1000,1,EXTREME,graphics/icons/cargo/holosuite.png,ui_cargo_special_ultratech_pickup,ui_cargo_special_ultratech_drop,com.fs.starfarer.api.campaign.impl.items.GenericSpecialItemPlugin,commerce,"ビジネスパートナーとの交渉を促進するために設計されたインタラクティブな環境を生成します。さらに、高級VRスイートに組み込まれた自己適応型マイクロエモーションスマートセンサーシステムにより、表現の真実性をリアルタイムで追跡でき、施設運営者にビジネス取引において技術的かつ倫理的な優位性を提供します。
+
+組み込みのマーケティング資料は、これはAIではなく、関連するドメイン規制に完全に準拠した洗練された重み付けネットワークに過ぎないことを強調しています。",180
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+# ブループリント,,,,,,,,,,,,,,,
+ロー・テクノロジー ブループリント パッケージ,low_tech_package,"package_bp, codex_unlockable",,,20000,1000,1,,graphics/icons/cargo/blueprint_lowtech.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,lowtech_bp,重工業が「ロー・テクノロジー」デザイン学校からより一般的な船体、武器、戦闘機LPCを構築できるようにします。,200
+ミッドライン ブループリント パッケージ,midline_package,"package_bp, codex_unlockable",,,25000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,midline_bp,重工業が「ミッドライン」デザイン学校からより一般的な船体、武器、戦闘機LPCを構築できるようにします。,210
+ハイ・テクノロジー ブループリント パッケージ,high_tech_package,"package_bp, codex_unlockable",,,30000,1000,1,,graphics/icons/cargo/blueprint_hightech.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,hightech_bp,重工業が「ハイ・テクノロジー」デザイン学校からより一般的な船体、武器、戦闘機LPCを構築できるようにします。,220
+ミサイル ブループリント パッケージ,missile_package,"package_bp, codex_unlockable",,,20000,1000,1,,graphics/icons/cargo/blueprint_missile.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,missile_bp,重工業がより一般的なミサイル兵器の範囲を構築できるようにします。,230
+海賊 ブループリント パッケージ,pirate_package,"package_bp, codex_unlockable",,,15000,1000,1,,graphics/icons/cargo/blueprint_basic.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,pirate_bp,ハッキング、アフターマーケットの改造仕様、および破損したブループリントの回復に対する部分的に成功した試みのコレクション。重工業が海賊やその他の望ましくない者によく使用される低品質だが戦闘能力のある船体を構築できるようにします。,240
+ルド左派 ブループリント パッケージ,LP_package,"package_bp, codex_unlockable",,,18000,1000,1,,graphics/icons/cargo/blueprint_basic.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,LP_bp,ルド左派のメンバーによく使用される船体を構築できるようにするハッキングとアフターマーケットの改造仕様のコレクション。,250
+ルド教団 ブループリント パッケージ,LC_package,"package_bp, codex_unlockable",,,15000,1000,1,,graphics/icons/cargo/blueprint_basic.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,LC_bp,ルド教団のマーキングを持つ船体を構築できるようにするハッキングとアフターマーケットの改造仕様のコレクション。改造は外観上のものであるため、製造された船体は他に問題がありません。,260
+XIV 戦闘群 ブループリント パッケージ,XIV_package,"package_bp, no_drop, hide_in_codex",,,1000000,1000,1,,graphics/icons/cargo/blueprint_basic.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,XIV_bp,重工業がヘゲモニー創設のXIV戦闘群によって使用されるほぼ伝説的な船体を生産できるようにするブループリントのセット。これらのブループリントの存続と場所は多くの噂の対象です。,270
+ヘゲモニー補助ブループリント,heg_aux_package,"package_bp, codex_unlockable",,,20000,1000,1,,graphics/icons/cargo/blueprint_basic.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,heg_aux_bp,いくつかの民間機をミルスペックに引き上げるか、単にヘゲモニーのマーキングを追加する改造されたブループリントのコレクション。崩壊後すぐに作成されたこれらのブループリントのいくつかは、後のブループリントハッキングの試みと関連するd-modの発生を増加させることなく、船体の性能を向上させます。,280
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+基本船ブループリント,ship_bp,single_bp,,,10000,1000,1,,graphics/icons/cargo/blueprint_shiphull.png,ui_chip_pickup,ui_ship_bp_drop,com.fs.starfarer.api.campaign.impl.items.ShipBlueprintItemPlugin,,このブループリントで説明された船体を重工業が構築できるようにします。,300
+基本武器ブループリント,weapon_bp,single_bp,,,2000,1000,1,,graphics/icons/cargo/blueprint_weapons.png,ui_chip_pickup,ui_weapon_bp_drop,com.fs.starfarer.api.campaign.impl.items.WeaponBlueprintItemPlugin,,このブループリントで説明された船の武器を重工業が構築できるようにします。,310
+基本戦闘機ブループリント,fighter_bp,single_bp,,,3000,1000,1,,graphics/icons/cargo/blueprint_fighter.png,ui_chip_pickup,ui_fighter_bp_drop,com.fs.starfarer.api.campaign.impl.items.FighterBlueprintItemPlugin,,このブループリントで説明された戦闘機LPCを重工業が構築できるようにします。,320
+,,,,,,,,,,,,,,,
+基本産業ブループリント,industry_bp,,,,20000,1000,1,,graphics/icons/cargo/blueprint_industry.png,ui_chip_pickup,ui_industry_bp_drop,com.fs.starfarer.api.campaign.impl.items.IndustryBlueprintItemPlugin,,惑星側の産業または構造物を構築するために必要な技術仕様を含んでいます。,400
+,,,,,,,,,,,,,,,
+# その他のアイテム,,,,,,,,,,,,,,,
+ジャヌスデバイス,janus,"mission_item, codex_unlockable",,,100000,1000,1,,graphics/icons/cargo/janus_device.png,ui_cargo_special_ultratech_pickup,ui_cargo_special_ultratech_drop,com.fs.starfarer.api.campaign.impl.items.JanusDevicePlugin,,"これは、エリッサ・ザルがスキラ・クーレーズなどの理論に基づいて作成した第一世代のジャニュスデバイスです。
+
+このデバイスはハイパードライブと統合されており、2つのゲートのユニークな共鳴シグネチャに調整されたハイパーウェーブパルスをゲートの開口部に送信することができます。膨大なエネルギー入力が必要で、大量の燃料を生成する必要がありますが、その後、これらのゲート間に一時的なリンクが作成されます。1隻の船または艦隊がゲートネットワークを通過することができます。",0
+プラネットキラー,planetkiller,"mission_item, codex_unlockable",Domain Restricted,,1000000,1000,1,,graphics/icons/cargo/planetkiller.png,ui_cargo_special_military_pickup,ui_cargo_special_military_drop,com.fs.starfarer.api.campaign.impl.items.BaseSpecialItemPlugin,,"世界を粉砕することができる特殊な弾頭です。動作原理はあまり理解されておらず、世界の回転と何らかの共鳴を利用することが関与していると考えられています。
+
+これは安全であり、長い間失われた可能性のある認証コードが必要で、複雑ではあるが完全に不活性な機械の部品以上のものにはなりません。",10
+地形データ,topographic_data,codex_unlockable,,,50000,1000,1,,graphics/icons/cargo/hyperspace_data.png,ui_chip_pickup,ui_modspec_drop,com.fs.starfarer.api.campaign.impl.items.BaseSpecialItemPlugin,,この安全なトライパッドには、ペルシアンセクターのハイパースペース地形の詳細なスキャンと分析を保持する最近のデータベースが含まれており、ドメインエクスプロラリウムによって設定された伝統的なガイドラインに従って整理されています。このようなデータは、コアワールドの外での成功した探検にとって不可欠な要素です。,500
+ワームホールアンカー,wormhole_anchor,codex_unlockable,Domain Restricted,,150000,1000,1,,graphics/icons/cargo/wormhole_anchor.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.WormholeAnchorPlugin,,"現代のペルシアンセクターには馴染みのないこの技術は、かつての偉大な時代にドメインエクスプロラリウムによって使用されました。安定した場所にワームホールの終端を作成するために使用できます。
+
+初期の起動には、宇宙船の燃料の形で反物質が必要です。使用するには、少なくとも1つの他のアクティブで同期した終端が必要です。",1
+ワームホールスキャナー,wormhole_scanner,"mission_item, codex_unlockable",Domain Restricted,,100000,1000,1,,graphics/icons/cargo/wormhole_scanner.png,ui_cargo_special_ultratech_pickup,ui_cargo_special_ultratech_drop,com.fs.starfarer.api.campaign.impl.items.WormholeScannerPlugin,,"ドメイン時代の遺物であり、艦隊が自然のワームホールをナビゲートできるようにし、その多くのねじれ、曲がり、そして高次元を通過する変化に従います。スキャナーなしでワームホールに入る艦隊は、少なくともバリオン物質の一貫した集合体としては二度と見られません。
+
+動作原理は、ペルシアンセクターの現在の最先端技術を考慮すると、あまり推測できません。",2
+フラグメントファブリケーター,fragment_fabricator,"threat, codex_unlockable",Threat,,20000,1000,1,,graphics/icons/cargo/fragment_fabricator.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.BaseSpecialItemPlugin,,"馴染みのない技術ですが、古代のドメイン工学基準と設計原則を共有しています。さまざまな自己修正アダプターがエネルギーと鍛造ストックの入力を受け入れます。コマンドインターフェースはありません。動作に干渉しようとすると、攻撃的な自己修復メカニズムが発動します。ユニットを分解しようとする大規模な試みは自己破壊のリスクを伴います。
+
+これは明らかにファブリケーターであり、入力が供給されると、各フラグメントユニットが生成されます。それぞれはフラクタルコンポーネントのユニークな配置で構成されていますが、機能的には似ており、スケールに対してわずかな許容があります。個々のレベルでは単純ですが、フラグメントはグループ内で洗練された出現行動を示します。",400
+脅威処理ユニット,threat_processing_unit,"threat, codex_unlockable",Threat,,15000,1000,1,,graphics/icons/cargo/threat_processing_unit.png,ui_cargo_special_industrial_pickup,ui_cargo_special_industrial_drop,com.fs.starfarer.api.campaign.impl.items.BaseSpecialItemPlugin,,基本的なモジュラー計算ユニットです。これらは脅威艦船のさまざまな機能をサポートするために大量に使用されているようです。完全には理解されていませんが、いかなるレベルの人工知能と見なされるための閾値を明らかに下回っています。,401
+シャウデッドサブストレート,shrouded_substrate,"monster, codex_unlockable",Shrouded Dweller,,5000,1000,1,,graphics/icons/cargo/shrouded_substrate.png,ui_cargo_special_biotech_pickup,ui_cargo_special_bio_drop,com.fs.starfarer.api.campaign.impl.items.ShroudedSubstratePlugin,,即席の封じ込めユニットを使用して半安定状態で保持されている異常なエキゾチック物質です。危険物取り扱いプロトコルのクラス6、7、9、および13を使用することをお勧めします。簡単な調査では、エネルギー投影への応用が示唆されています。,450
+シャウデッドサンダーヘッド,shrouded_thunderhead,"monster, codex_unlockable",Shrouded Dweller,,30000,1000,1,,graphics/icons/cargo/shrouded_thunderhead.png,ui_cargo_special_biotech_pickup,ui_cargo_special_bio_drop,com.fs.starfarer.api.campaign.impl.items.ShroudedHullmodItemPlugin,shrouded_thunderhead,"""この自己持続的な行動は、定期的にその、ええ、ターゲットに向かって大量のエネルギー差を放出します。嵐が悪であるとは言ったことがありませんが、今は...""
+
+- 盗聴された音声ログ、話者不明",451
+シャウデッドマントル,shrouded_mantle,"monster, codex_unlockable",Shrouded Dweller,,50000,1000,1,,graphics/icons/cargo/shrouded_mantle.png,ui_cargo_special_biotech_pickup,ui_cargo_special_bio_drop,com.fs.starfarer.api.campaign.impl.items.ShroudedHullmodItemPlugin,shrouded_mantle,"""この理論的な擬似プラズマにエネルギーを永遠に蓄えることはできません。それはどこかに行かなければなりません。""
+
+""-フラックスコンバーターの極性を反転させ、ドライブフィールドを点滅させます。ボン、局所的な時空に優しい衝撃を与えます。つまり、船そのものを指します。""
+
+""もしうまくいけば。""",452
+シャウデッドレンズ,shrouded_lens,"monster, codex_unlockable",Shrouded Dweller,,30000,1000,1,,graphics/icons/cargo/shrouded_lens.png,ui_cargo_special_biotech_pickup,ui_cargo_special_bio_drop,com.fs.starfarer.api.campaign.impl.items.ShroudedHullmodItemPlugin,shrouded_lens,"""戦闘機動中に回転させ、ドライブフィールド安定装置から適応された「プローブ」の周波数を調整します。それはハイパースペースの亀裂を生み出し、n-space構造にひどい損傷を与えるでしょう。例えば、宇宙船に。""",453

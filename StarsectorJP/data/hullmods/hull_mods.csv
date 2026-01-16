@@ -1,0 +1,293 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+加速シールド,advancedshieldemitter,0,,,"defensive, shields, merc, standard",Shields,3000,,,,3,6,9,15,data.hullmods.AcceleratedShieldEmitter,船のシールドの旋回速度を %s 増加させ、シールドの上昇速度を %s 増加させます。,Increases shield turn rate and extension speed.,シールドの旋回速度と上昇速度をさらに %s 増加させます。,graphics/hullmods/accelerated_shields.png
+適応フェイズコイル,adaptive_coils,2,,,"phase, merc, standard",Phase,5000,,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.AdaptivePhaseCoils,"フェイズコイルは、船のハード・フラックスレベルが上昇するにつれて通常空間との接続を維持する能力が低下し、コイルがトラクションを得るのに苦労するため、最高速度が大幅に低下します。
+
+この改造により、コイルはより高いレベルのハード・フラックスを扱えるようになり、速度が底を打つ閾値を %s 増加させます。標準設計のコイルで他の改造がない場合、この閾値は %s から %s に変わります。",Reduces impact of hard flux level on top speed while phased.,,graphics/hullmods/phase_field.png
+高度な光学,advancedoptics,2,,,"offensive, merc, standard",Weapons,1000,,,,5,10,15,25,data.hullmods.AdvancedOptics,ビーム兵器の射程を %s 増加させますが、旋回速度を %s 減少させます。統合ターゲティングユニットと累積します。,Increases beam weapon range.,,graphics/hullmods/advanced_optics.png
+高度なタレットジャイロ,turretgyros,0,,,"defensive, merc, standard",Weapons,2500,,,,2,4,6,10,data.hullmods.AdvancedTurretGyros,すべてのタレットの旋回速度を %s 増加させます。,Increases turret turn rate.,ミサイルと戦闘機へのダメージを %s 増加させます。サイズクラスの差ごとに小型船へのダメージを %s 増加させます。,graphics/hullmods/advanced_turret_gyros.png
+装甲武器マウント,armoredweapons,0,,,"defensive, merc, standard","Weapons, Defenses",2500,TRUE,,,3,6,9,15,data.hullmods.ArmoredWeapons,すべての武器の耐久性を %s 増加させ、反動を %s 減少させますが、武器の旋回速度を %s 減少させます。また、船の装甲を %s 増加させます。,"Makes weapons harder to disable, reduces recoil.",すべての非ミサイル武器の発射速度を %s 増加させます。,graphics/hullmods/armored_weapon_emplacements.png
+アサルトパッケージ,assault_package,1,,,"defensive, civ_package, no_drop, no_drop_salvage, hide_in_codex","Special, Defenses",8000,,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.AssaultPackage,"船の船体の耐久性を %s 増加させ、装甲を %s 増加させ、フラックス容量を %s 増加させます。
+
+敵に対して攻撃を試み、戦闘中は戦闘艦として行動します。","Increases hull integrity, armor, and flux capacity.",,graphics/hullmods/assault_package.png
+自動修理ユニット,autorepair,2,,,"engines, defensive, merc, standard",Defenses,7500,,,,3,6,9,15,data.hullmods.AutomatedRepairUnit,無効化された武器とエンジンの修理に必要な時間を (戦闘中) %s 減少させます。,Increases weapon repair rate in combat.,修理時間を %s に短縮し、オーバーロードの持続時間を %s 減少させます。,graphics/hullmods/automated_repair_unit.png
+補助スラスター,auxiliarythrusters,1,,,"engines, merc, standard",Engines,5000,TRUE,,,4,8,12,20,data.hullmods.AuxiliaryThrusters,船の機動性を %s 増加させます。,Increases maneuverability.,0フラックス速度ブーストを %s 増加させ、0フラックス旋回率ボーナスを %s 増加させます。,graphics/hullmods/auxilliary_thrusters.png
+弾道レンジファインダー,ballistic_rangefinder,2,,,"offensive, merc, standard",Weapons,8000,,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.BallisticRangefinder,<tooltip created in the script due to lots of highlighting>,Increases base range of small and medium weapons in ballisic slots.,,graphics/hullmods/ballistic_rangefinder.png
+ブラスドア,blast_doors,0,,,"defensive, merc, standard",Defenses,2500,TRUE,,,4,8,12,20,data.hullmods.BlastDoors,"船の重要な部分に追加の密閉された強化ドアを設置します。船体の耐久性を %s 増加させます。
+
+船は戦闘中に受けた船体ダメージから %s 少ない乗組員の犠牲を出します。","Increases hull integrity, reduces crew casualties.",乗組員の犠牲削減を %s に増加させます。,graphics/hullmods/blast_doors.png
+改造ハンガー,converted_hangar,1,,,"special, non_phase, merc, standard",Fighters,5000,,,,0,10,10,10,com.fs.starfarer.api.impl.hullmods.ConvertedHangar,<スクリプトで作成されたツールチップ>,Improvised fighter bay for non-carriers.,巡洋艦の戦闘機補充率の回復速度を %s 増加させ、主力艦の戦闘機補充率の回復速度を %s 増加させます。駆逐艦には追加効果はありません。,graphics/hullmods/converted_hangar.png
+改造戦闘機バイ,converted_fighterbay,0,,,"req_spaceport, special, non_phase, standard","Fighters, Logistics, Requires Dock",3000,,,,2,4,6,10,data.hullmods.ConvertedFighterBay,船の戦闘機バイを改造して即席の貨物室に変換し、追加で %s の貨物容量を与え、戦闘機バイごとに %s の乗組員要件を削減します。乗組員の削減は最大 %s に制限されます。,Converts built-in fighter bays into improvised cargo holds.,月間メンテナンスコストが戦闘機バイごとに %s 減少します。,graphics/hullmods/converted_fighter_bay.png
+専用ターゲティングコア,dedicated_targeting_core,0,,,"offensive, merc, standard",Weapons,2500,TRUE,,,0,0,15,25,data.hullmods.DedicatedTargetingCore,"巡洋艦/主力艦のために、弾道およびエネルギー兵器の射程を %s/%s 増加させます。
+
+フリゲートや駆逐艦には取り付けられず、統合ターゲティングユニットと併用することはできません。
+
+ほとんどの戦闘艦は、統合ターゲティングユニットまたは専用ターゲティングコアのいずれかを装備しており、より専門的なバリエーションを除きます。","Increases weapon range, more so for larger ships.",巡洋艦の射程ボーナスを %s、主力艦の射程ボーナスを %s 増加させます。,graphics/hullmods/targeting_core.png
+防御ターゲティングアレイ,defensive_targeting_array,2,,,"special, merc, standard",Fighters,3000,,,,2,4,6,10,com.fs.starfarer.api.impl.hullmods.DefensiveTargetingArray,"標準の戦闘機通信リンクは、短距離ターゲティングデータを提供するために再利用されます。
+
+戦闘機のミサイルや他の戦闘機に対するダメージを %s 増加させますが、戦闘機は自艦の近くを離れることができなくなります。","Increases fighter PD damage, reduces fighter roam range to zero.",艦の戦闘機の弾道およびエネルギー兵器の射程を %s ユニット延長します。,graphics/hullmods/defensive_targeting_array.png
+ECCMパッケージ,eccm,2,,,"offensive, defensive, merc, standard",Weapons,2500,,,,5,8,15,20,data.hullmods.ECCMPackage,"艦から発射されるミサイルが電子妨害やフレアの影響を受ける確率を %s 減少させます。
+
+各ミサイルに搭載されたCPUコアの補助装置は、ミサイルの最高速度を %s 増加させ、ミサイルの操縦性を %s 向上させ、誘導アルゴリズムを大幅に改善します。
+
+また、敵のECMによる武器射程の減少を %s 減少させます。","Improves missile speed and guidance, reduces effect of enemy Electronic Warfare.",武器射程の減少を完全に無効化し、艦のミサイルは常にフレアを無視します。,graphics/hullmods/eccm_package.png
+ECMパッケージ,ecm,2,,,"offensive, special, merc, standard","Weapons, Support",4000,,,,6,12,18,24,com.fs.starfarer.api.impl.hullmods.ECMPackage,戦闘に展開されると、この艦の船体サイズに応じて %s/%s/%s/%s のECM評価を付与します。,Increases ship's ECM rating.,,graphics/hullmods/ecm_package.png
+護衛パッケージ,escort_package,1,,,"special, weapons, engines, standard","Special, Weapons, Engines",8000,,,,0,7,15,0,com.fs.starfarer.api.impl.hullmods.EscortPackage,"この艦が大きな友軍艦の約 %s su 内にいるとき、この艦の操縦性を %s 増加させ、最高速度を %s 増加させます。また、弾道およびエネルギー兵器の射程を %s 増加させます。
+
+これらのボーナスは、近くの友軍が主力艦の場合、駆逐艦に対して %s になります。","Increases maneuverability, top speed, and weapon range when near larger friendly ship.",駆逐艦: シールドが受けるダメージを %s 減少させます。巡洋艦には追加効果はありません。,graphics/hullmods/escort_package.png
+拡張デッキクルー,expanded_deck_crew,1,,,"special, merc, standard",Fighters,4000,,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.ExpandedDeckCrew,"戦闘機の損失による戦闘機の補充率の減少速度を %s 減少させ、回復速度を %s 増加させます。
+
+戦闘機バイごとに必要な乗組員を %s 増加させます。","Improves fighter replacement rate, increases crew requirements.",,graphics/hullmods/expanded_deck_crew.png
+拡張マガジン,magazines,1,,,"offensive, merc, standard",Weapons,2500,,,,3,5,7,10,data.hullmods.ExpandedMagazines,弾道およびエネルギー兵器の弾薬容量またはチャージ数を %s 増加させます。,Increases ammo/charges for ballistic and energy weapons.,弾道およびエネルギー兵器の弾薬/チャージ再生速度を %s 増加させます。,graphics/hullmods/expanded_magazines2.png
+拡張ミサイルラック,missleracks,1,,,"offensive, merc, standard",Weapons,5000,,,,8,12,20,30,data.hullmods.ExpandedMissileRacks,ミサイル兵器の弾薬容量を %s 増加させます。,Increases missile weapon ammo.,ミサイル兵器の発射速度を %s 減少させます。,graphics/hullmods/expanded_missile_racks.png
+拡張シールド,extendedshieldemitter,1,,,"shields, defensive, merc, standard",Shields,5000,,,,4,8,12,20,data.hullmods.ExtendedShieldEmitter,シールドのカバー範囲を %s 度増加させます。,Increases maximum shield arc.,シールドのカバー範囲をさらに %s 度増加させます。,graphics/hullmods/extended_shields.png
+フラックスコイル補助装置,fluxcoil,0,,,"special, merc, standard",Special,4000,TRUE,,,4,8,12,20,data.hullmods.FluxCoilAdjunct,船のフラックス容量を %s/%s/%s/%s 増加させます。船体サイズに応じて異なります。フラックスコンデンサーほど効率的ではなく、すでに最大数のコンデンサーを搭載している設計に追加するのが最も有用です。,Increases flux capacity.,フラックス容量をさらに %s/%s/%s/%s 増加させ、コイルをコンデンサーを追加するのと同じくらい効率的にします。,graphics/hullmods/flux_coil_adjunct.png
+フラックスディストリビューター,fluxdistributor,0,,,"special, merc, standard",Special,4000,TRUE,,,4,8,12,20,data.hullmods.FluxDistributor,船体のサイズに応じて、船のフラックス消散を %s/%s/%s/%s 増加させます。フラックスベントほど効率的ではなく、すでに最大数のベントを搭載している設計に追加するのが最も有用です。,Increases flux dissipation.,さらに %s/%s/%s/%s フラックス消散を増加させ、ディストリビューターをベントを追加するのと同じくらい効率的にします。,graphics/hullmods/flux_distributor.png
+,,,,,,,,,,,,,,,,,,,
+シールドシャント,shield_shunt,1,,,"special, shields, merc, standard","Special, Shields",3000,,,,3,5,7,10,com.fs.starfarer.api.impl.hullmods.ShieldShunt,船のシールドを取り外します。外部エミッターノードは強化プレートに置き換えられ、船の装甲が %s 増加します。,"Removes shields, increases armor.",船の装甲をさらに %s 増加させます。,graphics/hullmods/shield_shunt.png
+簡易シールドジェネレーター,frontshield,0,,,"shields, defensive, standard",Shields,4000,,,,5,10,15,25,data.hullmods.FrontShieldGenerator,"船に簡易で非効率的なシールドジェネレーターを取り付けます。シールドエミッターは前方を向いた位置に固定され、%s 度のアークを持っています。
+
+シールドジェネレーターはエンジンから多くの電力を引き出し、船の最高速度を %s 減少させます。",Installs basic shields on shieldless ship. Reduces top speed.,,graphics/hullmods/front_shield_generator.png
+ミサイルオートローダー,missile_autoloader,1,,,"offensive, merc, standard",Weapons,6000,,,,8,12,20,30,com.fs.starfarer.api.impl.hullmods.MissileAutoloader,<tooltip created in the script due to sections/other complexity>,Reloads missile weapons in small missile mounts,リロード後のクールダウンを %s 秒に増加させます。,graphics/hullmods/missile_autoloader.png
+強化シールド,hardenedshieldemitter,3,,,"shields, defensive, merc, standard",Shields,10000,,,,5,10,15,25,data.hullmods.HardenedShieldEmitter,シールドが受けるダメージを %s 減少させます。また、イオンビームのような武器からのEMPアークによってシールドが貫通される確率も減少します。,Reduces damage taken by shields.,,graphics/hullmods/hardened_shields.png
+強化サブシステム,hardened_subsystems,0,,,"special, merc, standard",Special,2500,TRUE,,,5,10,15,25,data.hullmods.HardenedSubsystems,"長時間の展開によって性能が低下した船のピーク稼働時間を %s 増加させます。
+
+また、戦闘準備が低下する速度を %s 減少させます。","Increases peak time, CR degrades more slowly.",,graphics/hullmods/hardened_subsystems.png
+重装甲,heavyarmor,0,,,"defensive, merc, standard",Defenses,2500,,,,8,15,20,40,data.hullmods.HeavyArmor,船の装甲を船体のサイズに応じて %s/%s/%s/%s ポイント増加させます。,Increases armor.,船の機動性を %s 減少させます。,graphics/hullmods/heavy_armor.png
+ハイ・スキャッターアンプ,high_scatter_amp,3,,,"offensive, merc, standard",Weapons,5000,,,,4,8,12,20,com.fs.starfarer.api.impl.hullmods.HighScatterAmp,<tooltip created in the script due to sections>,Reduces beam range; beams deal more damage and apply hard flux to shields.,ビーム兵器のダメージをさらに %s 増加させます。,graphics/hullmods/high_scatter_amp.png
+統合型対空防御AI,pointdefenseai,3,,,"defensive, merc, standard","Weapons, Defenses",10000,,,,3,6,9,15,data.hullmods.IntegratedPointDefenseAI,すべての対空防御兵器にデコイフレアを識別し、無視する能力を与えます。さらに、すべての対空防御兵器は戦闘準備に関係なく最適なターゲットリーディングを得て、ミサイルへのダメージが %s 増加します。,"PD ignores decoy flares, improved target leading, more damage to missiles.",すべての小型の非ミサイル、非ストライク兵器は「対空防御」として分類され、自動的にミサイルをターゲットし、対空防御のステータス修正の影響を受けます。,graphics/hullmods/integrated_point_defense_ai.png
+#対空防御統合,pdintegration,3,,,"defensive, merc","Weapons, Defenses",10000,,,,12,15,18,24,com.fs.starfarer.api.impl.hullmods.PDIntegration,"小型対空防御兵器の弾薬ポイントコストを %s 減少させます。このコスト削減は、武器自体の特徴としてPD機能を持つ武器にのみ影響し、ハルモッドなどの他の手段で得た場合には影響しません。
+
+さらに、すべての対空防御兵器はすべてのターゲットに対して %s 追加のダメージを与えます。","Reduces ordnance point cost of small PD weapons, increases all PD damage.",,graphics/hullmods/integrated_point_defense_ai.png
+統合型ターゲティングユニット,targetingunit,3,,,"offensive, merc, standard",Weapons,10000,,,,4,8,15,25,data.hullmods.IntegratedTargetingUnit,"船体のサイズに応じて、弾道およびエネルギー兵器の射程を %s/%s/%s/%s 増加させます。専用ターゲティングコアとの併用はできません。
+
+ほとんどの戦闘艦は、統合型ターゲティングユニットまたは専用ターゲティングコアのいずれかを搭載しており、より専門的なバリエーションを除きます。","Increases weapon range, more so for larger ships.",,graphics/hullmods/integrated_targeting_unit.png
+ナビゲーションリレー,nav_relay,2,,,"engines, special, merc, standard","Engines, Support",5000,,,,10,15,20,25,com.fs.starfarer.api.impl.hullmods.NavRelay,"戦闘に展開された際、この船の船体サイズに応じて艦隊のナビゲーション評価を %s/%s/%s/%s 増加させます。
+
+艦隊の総ナビゲーション評価は、展開された船の最高速度を増加させます。",Increases top speed of deployed ships.,,graphics/hullmods/nav_relay.png
+ニューロインターフェース,neural_interface,3,,,"special, no_drop, no_drop_salvage",Special,10000,,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.NeuralInterface,"旗艦と別の船をリンクし、両方の船が同時に%sできるようにします。「コマンド転送」と同様に、弾薬容量や戦闘準備状態を増加させるスキル効果など、一部のスキル効果は別の船には適用されません。
+
+また、シャトルポッドを使用せずにリンクされた船の間で迅速に切り替えることができます。船の展開ポイントの合計が%s以下であれば、転送は即座に行われます。目的の船は士官またはAIコアの指揮下にあってはなりません。","Allows rapid switching between ships, resets system cooldown and adds a charge.",船からの転送は常に即座に行われ、展開ポイントの合計に関係ありません。,graphics/hullmods/neural_interface.png
+ニューロインテグレーター,neural_integrator,,,,"special, no_drop, no_drop_salvage",Special,10000,,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.NeuralIntegrator,"自動化された船と連携するために、リンクを介して船のすべてのシステムを直接制御できるようにしたニューロインターフェースの拡張版で、両方の船が同時に%sできるようにします。「コマンド転送」と同様に、弾薬容量や戦闘準備状態を増加させるスキル効果など、一部のスキル効果は別の船には適用されません。
+
+また、シャトルポッドを使用せずにリンクされた船の間で迅速に切り替えることができます。船の展開ポイントの合計が%s以下であれば、転送は即座に行われます。目的の船は士官またはAIコアの指揮下にあってはなりません。
+
+改造の複雑さは、船の展開ポイントと展開から回復するための補給コストを%s増加させます。",Specialized Neural Interface for automated ships.,船からの転送は常に即座に行われ、展開ポイントの合計に関係ありません。,graphics/hullmods/neural_integrator.png
+シールド変換 - 前面,frontemitter,2,,,"shields, defensive, merc, standard",Shields,7000,,,,3,5,8,12,data.hullmods.FrontShieldEmitter,船の全方向シールドエミッターを前方に固定し、そのアークを%s延長します。すべての前面エミッターと同様に、シールドも2倍の速さで展開されます。,"Converts omni shield to front, extends arc.",シールドが受けるダメージを%s減少させます。,graphics/hullmods/front_shield_emitter.png
+シールド変換 - オムニ,adaptiveshields,3,,,"shields, defensive, merc, standard",Shields,7000,,,,3,5,8,12,data.hullmods.OmniShieldEmitter,前面シールドを全方向型に変換します。シールドのアークを%s減少させます。,"Converts front shield to omni, reduces arc.",シールドアークペナルティを無効にします。,graphics/hullmods/omni_shield_emitter_mod.png
+オペレーションセンター,operations_center,1,,,special,Special,5000,,,,30,30,30,30,com.fs.starfarer.api.impl.hullmods.OperationsCenter,旗艦に装備すると、指揮ポイントの回復速度が%s増加します。,Increases command point recovery rate when on flagship.,,graphics/hullmods/operations_center.png
+フェイズアンカー,phase_anchor,3,,,"phase, merc, no_build_in, standard, phase_brawler",Phase,7000,,,,10,20,30,50,com.fs.starfarer.api.impl.hullmods.PhaseAnchor,"フェイズクロークの発動コストを%sに減少させます。フェイズ中はソフトフラックスの拡散と武器の充電速度が%s増加します。
+
+船が破壊または無効化される致命的なダメージを受けた場合、緊急ダイブをp空間に深く行うことができます。船は撤退したと見なされ、戦闘が終了すると通常空間に出現し、戦闘準備状態に対して%sの追加ペナルティを受けます。このダイブを開始するには、船がこのコストをカバーするのに十分な戦闘準備状態を持っている必要があります。
+
+このような動作によってp空間に生じる巨大な歪みにより、戦闘ごとに1隻の船のみが実行可能です - どちらの側であっても。","Increases flux dissipation and weapon recharge while phased, emergency dive maneuver.",,graphics/hullmods/phase_anchor.png
+回収シャトル,recovery_shuttles,1,,,"special, standard",Fighters,4000,,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.RecoveryShuttles,戦闘機パイロットの casualties を%s減少させます。,Reduces fighter pilot casualties.,戦闘機パイロットの casualties 削減を%sに増加させます。,graphics/hullmods/recovery_shuttles.png
+強化バルクヘッド,reinforcedhull,0,,,"defensive, merc, standard",Defenses,2500,TRUE,,,5,10,15,30,data.hullmods.ReinforcedBulkheads,船の船体の耐久性を%s増加させます。無効化された場合、船は分解せず、戦闘後にほぼ常に回収可能です。,Increases hull integrity; ship almost always recoverable if lost.,,graphics/hullmods/reinforced_bulkheads.png
+耐性フラックス導管,fluxbreakers,2,,,"defensive, merc, standard","Special, Defenses",7000,,,,3,6,9,15,data.hullmods.FluxBreakers,イオンキャノンなどの武器から受けるEMPダメージを%s減少させます。また、ベント中の船のフラックス拡散率を%s増加させます。,"Reduces EMP damage taken, improves venting speed.",ベント中のフラックス拡散率をさらに%s増加させます。,graphics/hullmods/resistant_flux_conduits.png
+安全オーバーライド,safetyoverrides,0,,,"special, engines, offensive, merc, no_build_in, standard","Special, Engines",2500,TRUE,,,15,30,45,70,data.hullmods.SafetyOverrides,"安全プロトコルを無効にすると、船の戦闘時の最高速度が%s/%s/%s（船のサイズに応じて加速も増加）増加し、フラックスレベルに関係なくゼロフラックスエンジンブーストが有効になります。フラックス拡散率は、追加のベントを含めて%s倍増加します。
+
+ピークパフォーマンスタイムを%s倍減少させ、アクティブベントの使用を防ぎ、%sユニットを超える武器の射程を大幅に減少させます。
+
+民間船や主力艦には装備できません。","Drastic improvement in performance, much lower peak time.",,graphics/hullmods/safety_overrides.png
+,,,,,,,,,,,,,,,,,,,
+安定化シールド,stabilizedshieldemitter,1,,,"shields, defensive, merc, standard",Shields,5000,,,,3,6,9,15,data.hullmods.StabilizedShieldEmitter,上昇したシールドが毎秒生成するソフトフラックスの量を%s減少させます。シールドがダメージを受けた結果として生成されるハードフラックスには影響しません。,Reduces flux upkeep for shields.,シールドが受けたハードフラックスダメージの%sをソフトフラックスに変換します。,graphics/hullmods/stabilized_shields.png
+,,,,,,,,,,,,,,,,,,,
+不安定インジェクター,unstable_injector,0,,,"engines, merc, standard",Engines,2500,TRUE,,,5,10,15,25,data.hullmods.UnstableInjector,"船の戦闘時の最高速度を船体サイズに応じて %s/%s/%s/%s su/秒 増加させます。
+
+武器のターゲティングや他の脆弱なシステムに干渉し、ミサイル以外の武器の射程を %s 減少させ、戦闘機の補充時間を %s 増加させます。","Increases speed, reduces weapon range.",,graphics/hullmods/unstable_injector.png
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+# 物流船体モジュール,,,,,,,,,,,,,,,,,,,
+追加のバース,additional_berthing,0,,,"req_spaceport, merc, standard","Logistics, Requires Dock",3000,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.AdditionalBerthing,"船体サイズに応じて最大乗組員数を %s/%s/%s/%s 増加させるか、%s のいずれか高い方を選択します。
+
+民間グレードの船体の場合、メンテナンス供給の使用量も %s 増加します。",Increases crew capacity.,乗組員数の増加を2倍にし、民間船体の場合はメンテナンスコストの増加を無効にします。,graphics/hullmods/berthing.png
+拡張ドライブフィールド,augmentedengines,1,,,"req_spaceport, merc, standard","Logistics, Requires Dock",8000,,,,8,16,24,40,data.hullmods.AugmentedEngines,最大バーニングレベルを %s 増加させます。,Increases maximum burn level.,最大バーニングレベルをさらに %s 増加させます。,graphics/hullmods/augmented_drive_field2.png
+補助燃料タンク,auxiliary_fuel_tanks,0,,,"req_spaceport, merc, standard","Logistics, Requires Dock",4000,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.AuxiliaryFuelTanks,"船体サイズに応じて最大燃料容量を %s/%s/%s/%s 増加させるか、%s のいずれか高い方を選択します。
+
+民間グレードの船体の場合、メンテナンス供給の使用量も %s 増加します。",Increases fuel capacity.,燃料容量の増加を2倍にし、民間船体の場合はメンテナンスコストの増加を無効にします。,graphics/hullmods/fuel_tanks.png
+効率的なオーバーホール,efficiency_overhaul,0,,,"req_spaceport, merc, standard","Logistics, Requires Dock",4000,,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.EfficiencyOverhaul,"メンテナンス、燃料使用、必要最低乗組員数を %s 減少させます。
+
+戦闘準備の回復と修理速度を %s 増加させます。CR回復のための1日あたりの供給消費は回復速度の増加に合わせて増加しますが、総供給コストは変わりません。",Reduces ongoing costs and enables more deployments.,メンテナンスコスト、燃料使用、最低乗組員数をさらに %s 減少させます。,graphics/hullmods/efficiency.png
+拡張貨物室,expanded_cargo_holds,0,,,"req_spaceport, merc, standard","Logistics, Requires Dock",4000,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.ExpandedCargoHolds,"船体サイズに応じて最大貨物容量を %s/%s/%s/%s 増加させるか、%s のいずれか高い方を選択します。
+
+民間グレードの船体の場合、メンテナンス供給の使用量も %s 増加します。",Increases cargo capacity.,貨物容量の増加を2倍にし、民間船体の場合はメンテナンスコストの増加を無効にします。,graphics/hullmods/expanded_cargo.png
+高解像度センサー,hiressensors,2,,,"req_spaceport, merc, standard","Logistics, Requires Dock",9000,,,,4,6,9,15,com.fs.starfarer.api.impl.hullmods.HighResSensors,<スクリプトで作成されたツールチップ>,Increases fleet's sensor range.,船の戦闘中の視界範囲を船体サイズに基づいて %s/%s/%s/%s 増加させます。,graphics/hullmods/high_res_sensors.png
+絶縁エンジンアセンブリ,insulatedengine,0,,,"engines, defensive, req_spaceport, merc, standard","Engines, Logistics, Defenses, Requires Dock",2500,,,,3,6,9,15,data.hullmods.InsulatedEngines,"船のエンジンの耐久性を %s 増加させ、船体の整合性を %s 増加させます。
+
+船のセンサープロファイルも %s 減少します。","Makes engines harder to disable, lowers sensor profile.",エンジンの耐久性をさらに %s 増加させ、センサープロファイルの減少を %s に増加させます。,graphics/hullmods/insulated_engine_assembly.png
+軍事化されたサブシステム,militarized_subsystems,0,,,"req_spaceport, merc, standard","Special, Logistics, Requires Dock",6000,TRUE,,,4,8,12,20,com.fs.starfarer.api.impl.hullmods.MilitarizedSubsystems,"民間グレードの船体からペナルティを取り除き、最大バーニングレベルを %s 増加させます。
+
+必要最低乗組員数を %s 増加させます。","Removes sensor penalties, increases maximum burn level, increases crew required.",増加した乗組員要件を無効にします。,graphics/hullmods/militarized_subsystems.png
+太陽シールド,solar_shielding,2,,,"defensive, req_spaceport, merc, standard","Defenses, Logistics, Requires Dock",5000,,,,3,6,9,15,data.hullmods.SolarShielding,"元々はシンドリア統合軍のエンジニアによって、アスコニア内部システムの独特な条件に対処するために開発されました。太陽コロナでの運用が戦闘準備に与える影響を %s 減少させ、深いハイパースペースの嵐に対しても同様の効果があります。
+
+戦闘中は、受けるエネルギー損害を %s 減少させます。",Reduces effect of being in corona and energy damage taken.,太陽コロナや同様の危険からの保護を %s に増加させます。,graphics/hullmods/solar_shielding2.png
+測量機器,surveying_equipment,1,,,"special, req_spaceport, standard","Logistics, Requires Dock",5000,,,,5,10,15,25,data.hullmods.SurveyingEquipment,船体のサイズに応じて、調査に必要な重機械と物資を %s/%s/%s/%s 削減し、各々の最低値は %s になります。,Reduces resource requirements for surveying.,調査コストの削減を %s 増加させます。,graphics/hullmods/surveying_equipment.png
+,,,,,,,,,,,,,,,,,,,
+# 標準ビルトイン船体モジュール,,,,,,,,,,,,,,,,,,,
+ターミネーターコア,terminator_core,,,,,Weapons,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.TerminatorCore,すべての対空防御兵器にデコイフレアを識別し、無視する能力を与えます。さらに、すべての武器は戦闘準備状態に関係なく、最適なターゲットリーディングを得ます。ミサイルと戦闘機へのダメージは %s 増加し、ビーム兵器の射程は %s ユニット増加します。,,,graphics/hullmods/terminator_core.png
+共有フラックスシンク,shared_flux_sink,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.SharedFluxSink,すべての接続モジュールのフラックス消散の %s を処理します。戦闘中にモジュールが失われた場合、追加のフラックス消散は残りのモジュールに再分配されます。この追加消散の最大 %s はハードフラックスに適用されます。,Flux/hard flux dissipation bonus as modules are lost.,,graphics/hullmods/shared_flux_sink.png
+ステルス地雷原,stealth_minefield,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.StealthMinefield,地雷は戦闘中に敵艦を攻撃します。,Mines attack enemy ships during battle.,,graphics/hullmods/stealth_mines.png
+ステルス地雷原 - 低技術,stealth_minefield_lt,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.StealthMinefieldLT,地雷は戦闘中に敵艦を攻撃します。,Mines attack enemy ships during battle.,,graphics/hullmods/stealth_mines.png
+Bデッキ,bdeck,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.BDeck,"戦闘中に一度、戦闘機の補充率が %s に達すると、戦闘機発進口が「Bデッキ」から運用されるように切り替わります。
+
+待機中の戦闘機が発進し、ウィングを迅速に完全な強さに戻し、戦闘機の補充率は %s に設定されます。",Launches fresh wing once per combat and replenishes the replacement rate.,,graphics/hullmods/bdeck.png
+戦闘機シャーシストレージ,chassis_storage,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FighterChassisStorage,戦闘機が失われても、戦闘機の補充率は下がりません。,Fighter replacement rate does not go down.,,graphics/hullmods/expanded_deck_crew.png
+シールド常時オン,shield_always_on,,,,,,,,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ShieldAlwaysOn,,"Forces shield to stay on. Hidden, doesn't need description or icon.",,graphics/hullmods/hardened_shields.png
+ミサイルオートフォージ,missile_reload,,,,codex_require_related,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.PeriodicMissileReload,艦内のオートフォージが定期的にすべてのミサイル兵器の弾薬を完全に再装填します。,Periodically reloads all missile weapons.,,graphics/hullmods/expanded_missile_racks.png
+シールド付き貨物室,shielded_holds,2,,,,,,,TRUE,,0,0,0,0,data.hullmods.ShieldedCargoHolds,宇宙放射線から貨物を保護するために常にシールドに頼れない艦に一般的に見られます。シールドを調整することで、長距離貨物スキャンを混乱させ、密輸品が検出される確率を減少させるために、いくつかの微調整が必要です。,Improves chance to avoid detection of contraband.,,graphics/hullmods/shielded_cargo_hold.png
+サルベージガントリー,repair_gantry,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.campaign.RepairGantry,放棄されたステーション、廃船、浮遊する船体などからのサルベージで得られる資源を、船体のサイズに応じて %s/%s/%s/%s 増加させます。燃料や物資などの一般的な資源の回収にのみ影響し、設計図のような希少アイテムには影響しません。さらに、ボーナスの %s は戦闘後のサルベージに適用されます。,Increases resources gained from salvage.,,graphics/hullmods/repair_gantry.png
+フェイズフィールド,phasefield,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.PhaseField,艦は低品質のフェイズフィールドを長時間運用でき、効果的なセンサープロファイルを %s 減少させます。,Reduces fleetwide sensor profile.,,graphics/hullmods/phase_field.png
+フラックスシャント,fluxshunt,,,,,,,,TRUE,,0,0,0,0,data.hullmods.FluxShunt,シールドがオンの間、艦は通常の %s の速度でハードフラックスを消散できるようになります。,Allows dissipation of hard flux while shields are up.,,graphics/hullmods/flux_shunt.png
+民間グレード船体,civgrade,,,,,,,,TRUE,,0,0,0,0,data.hullmods.CivGrade,センサープロファイルを %s 増加させます。センサー強度を %s 減少させます。,"Increases sensor profile, reduces sensor strength.",,graphics/hullmods/civilian_grade.png
+高メンテナンス,high_maintenance,,,,,,,,TRUE,,0,0,0,0,data.hullmods.HighMaintenance,月間メンテナンス供給コストを %s 増加させます。,Increases maintenance cost.,,graphics/hullmods/high_maintenance.png
+エネルギー・ボルト・コヒーラー,coherer,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.EnergyBoltCoherer,<tooltip created in the script>,Increases base range of non-beam energy weapons.,,graphics/hullmods/coherer.png
+設計妥協,design_compromises,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DesignCompromises,"この船は、競合する設計優先事項のために性能が低下しており、複数の最先端プロジェクトが設計サイクルの遅すぎる段階で統合されています。
+
+船のフラックス排出量と容量、さらには名目上の基本値も %s 減少します。
+
+弾道兵器の射程は %s 減少し、ミサイル兵器の発射速度は %s 減少し、エネルギー兵器のフラックス生成は %s 増加します。
+
+その一方で、追加のナノフォージ容量をより簡単にオンライン化できるため、すでに戦闘機用バイを持っているにもかかわらず %s を設置でき、運用可能な戦闘機用バイの数を %s に増加させます。","Reduces missile and ballistic weapon range, and flux dissipation / capacity.",,graphics/hullmods/design_compromises.png
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+モノフィラメント牽引ケーブル,tow_cable,,,,hide_in_codex,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.campaign.TowCable,"艦隊内で最も遅い船の最大燃焼レベルを1上げます。複数の牽引船を使用して同じ船を1以上速めることはできません。
+
+戦闘では使用できません。",Increases burn level of another ship.,,graphics/hullmods/monofilament_cable.png
+ドライブフィールドスタビライザー,drive_field_stabilizer,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DriveFieldStabilizer,"艦隊のドライブバブルを安定させ、艦隊の最大燃焼を %s 増加させます。複数のスタビライザーの効果は累積します。
+
+船のセンサープロファイルを %s 増加させます。",Reduces fleetwide fuel use.,,graphics/hullmods/augmented_drive_field.png
+地上支援パッケージ,ground_support,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.GroundSupport,地上防衛のための近接支援兵器と対策。艦隊内の海兵隊員の総数まで、惑星襲撃の実効力を %s 増加させます。,Improves effectiveness of raids.,,graphics/hullmods/ground_support.png
+高度な地上支援,advanced_ground_support,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.AdvancedGroundSupport,地上防衛のための近接支援兵器と対策。艦隊内の海兵隊員の総数まで、惑星襲撃の実効力を %s 増加させます。,Improves effectiveness of raids.,,graphics/hullmods/ground_support_adv.png
+デリケートな機械,delicate,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DelicateMachinery,"この船のシステムは過剰なメンテナンスを必要とし、長時間の戦闘の厳しさに耐えられません。
+
+ピークパフォーマンスタイムが終了した後の戦闘中のCR減少率を %s 増加させます。",Increases CR decay rate after peak time runs out.,,graphics/hullmods/delicate_machinery.png
+重火器統合,hbi,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.HeavyBallisticsIntegration,大型弾道兵器の弾薬ポイントコストを %s 減少させます。,Reduces ordnance point cost of large ballistic weapons.,,graphics/hullmods/ballistics_integration.png
+広大なハンガー,vast_hangar,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.VastHangar,"この船は巨大なハンガーと、それに見合った小規模な支援艦隊を持っています。
+
+改造ハンガーによって追加される戦闘機用バイの数は %s 増加し、その性能は専用の戦闘機用バイと同等になります - 船の展開コストに対するペナルティや修正もすべて無効化されます。",Increases the effect of Converted Hangar and removes its penalties.,,graphics/hullmods/vast_hangar.png
+頑丈な構造,rugged,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.RuggedConstruction,"d-modのほとんどの悪影響を %s 減少させます。戦闘中に無効化または破壊された場合、船は新しいd-modを回避する %s の確率を持ち、戦闘後にほぼ常に回収可能です。
+
+さらに、展開からの回復にかかる補給コスト - そして船が無効化された場合の修理にかかるコスト - が %s 減少します。",Reduces impact of d-mods; ship almost always recoverable if lost.,,graphics/hullmods/rugged_construction.png
+自動化船,automated,,,,codex_require_related,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.Automated,この船は完全に自動化されており、人間の乗組員を必要とせず、また受け入れることもできません。,Does not require and can not support crew.,,graphics/hullmods/automated.png
+高度なターゲティングコア,advancedcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.AdvancedTargetingCore,"弾道兵器とエネルギー兵器の射程を %s 増加させます。対空兵器の射程は %s のみ増加します。
+
+専用ターゲティングコアまたは統合ターゲティングユニットの取り付けを妨げます。",Greatly extends non-missile weapon range.,,graphics/hullmods/advanced_targeting_core.png
+ターゲティングスーパーコンピュータ,supercomputer,,,,,,,,TRUE,,0,0,0,0,data.hullmods.TargetingSupercomputer,"弾道兵器とエネルギー兵器の射程を %s 増加させます。対空兵器の射程は %s のみ増加します。
+
+また、ターゲットリーディングの精度を向上させ、戦闘中のセンサー範囲を大幅に増加させます。",Greatly extends non-missile weapon range.,,graphics/hullmods/targeting_supercomputer.png
+実験的フェイズコイル,ex_phase_coils,,,,codex_require_related,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ExperimentalPhaseCoils,フェイズクロークのクールダウンを %s 減少させます。,Greatly reduces phase cloak cooldown.,,graphics/hullmods/phase_coils_experimental.png
+高ボリションアトラクター,high_frequency_attractor,,,,codex_require_related,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.combat.BaseHullMod,高周波モートを船上のリフトコアによってワープさせることを可能にする実験的な改造です。,Launches more powerful high-frequency motes.,,graphics/hullmods/high_volition_attractor.png
+アブレイティブ・アーマー,ablative_armor,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.AblativeArmor,"古代の設計で、""スペース""アーマーの登場前に、物質の量で微小隕石を防ぐことを目的としています。
+
+ダメージ軽減計算のための有効装甲強度を実際の値の%sに減少させます。ただし、この設計の船は非常に重い装甲を搭載する傾向があります。",Reduces damage reduction by armor.,,graphics/hullmods/ablative_armor.png
+分散火器制御,distributed_fire_control,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DistributedFireControl,武器をオフラインにするダメージの多くは、外部制御回路や電力導管に対するものです。この船の武器はより独立して動作するように設計されており、ダメージへの曝露を%s減少させ、船全体で受けるEMPダメージを%s減少させます。,Increases weapon durability and reduces EMP damage taken.,,graphics/hullmods/distributed_fire_control2.png
+改造貨物室,converted_bay,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.ConvertedCargoBay,この船の貨物室は、戦闘機のバイを収容するために改造されました。戦闘機のシャーシを生産する即席工場は信頼性が低く、ほとんどの部品には軽微な欠陥があります。戦闘機の速度は%s減少し、受けるダメージは%s増加します。,Pair of improvised fighter bays.,,graphics/hullmods/converted_hangar.png
+特別改造,andrada_mods,,,,"dmod, codex_require_related",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.AndradaMods,"初期プロトタイプの検査中、最高執行官は通路に沿った露出した導管について好意的でないコメントをしているのが聞かれ、戦闘条件下で勇敢で忠実な乗組員に対する危険性を指摘しました。
+
+新しい主任設計者は、最高執行官自身によって任命された忠実な士官であり、シンドリア自身が製造した特別な防爆絶縁パネルの設置のために鍛冶プログラマーに配慮を指示しました。
+
+通路が少し狭く、過熱しやすい導管があり、フラッシュセットパネルがアクセスしにくい場合でも、公式の準備報告には変更に対する批判は含まれていません。公の場でも、そして内部安全省が証言できるように、私的にも、ライオンズガード艦隊の厳しい壮大さは息を呑むものです。
+
+戦闘中の乗組員の犠牲者は%s増加します。基本フラックス散逸率は%s減少し、無効化された武器とエンジンの修理率は%s減少します。",Reduces the ship's performance.,,graphics/hullmods/special_modifications.png
+巨大な質量,vastbulk,,,,,,,,TRUE,,0,0,0,0,data.hullmods.VastBulk,この構造の本体は巨大であり、実質的には従来の武器からのあらゆる量のダメージを吸収できる能力があります。,,,graphics/hullmods/vast_bulk.png
+軸回転,axialrotation,,,,,,,,TRUE,,0,0,0,0,data.hullmods.AxialRotation,この構造は常にその軸を中心に回転しています。,,,graphics/hullmods/axial_rotation.png
+アンカー回転,anchorrotation,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.AnchorRotation,この構造はそのアンカー取り付け点の周りを回転します。ステーションモジュール専用です。,,,graphics/hullmods/axial_rotation.png
+爆発縮小,reduced_explosion,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.ReducedExplosion,爆発半径とダメージが減少しました。,,,graphics/hullmods/reduced_explosion.png
+常に分離,always_detaches,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.AlwaysDetaches,破壊されると常に親構造から分離します。,,,graphics/hullmods/detach_always.png
+決して分離しない,never_detaches,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.NeverDetaches,破壊されても親構造から決して分離しません。,,,graphics/hullmods/detach_never.png
+武器フラックスなし,no_weapon_flux,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.NoWeaponFlux,武器の発射にフラックスはかかりません。戦闘機に使用され、効果的なシールドヒットポイントの細かい制御が可能です。,,,
+貫通発射禁止,do_not_fire_through,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.DoNotFireThrough,ステーションの他のモジュールの武器は、このモジュールを貫通して発射することを避けます。たとえ弾がそれを越えて当たらないとしても。,,,
+シャード・スポーナー,shard_spawner,,,,,,,,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ShardSpawner,船が無効化または破壊されるとシャード船を生成します。,,,
+後退禁止,do_not_back_off,,,,,,,,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DoNotBackOff,DO_NOT_BACK_OFF AIフラグを設定します。,,,
+,,,,,,,,,,,,,,,,,,,
+# 脅威関連,,,,,,,,,,,,,,,,,,,
+脅威船体,threat_hullmod,,,,"codex_require_related, threat",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.combat.threat.ThreatHullmod,脅威艦船の特別な特性を管理するための隠されたハルモッドです。スクリプトで作成された説明です。,,,graphics/hullmods/the_threat.png
+フラグメント・スウォーム,fragment_swarm,,,,"codex_unlockable, fragment, no_drop_salvage","Weapons, Special",30000,,,,6,12,18,30,com.fs.starfarer.api.impl.combat.threat.FragmentSwarmHullmod,"脅威のフラグメントの群れが艦船の周りを渦巻き、フラグメントベースの武器用に再生可能なフラグメントの供給を提供します。
+
+フラグメントの基本数は %s/%s/%s/%s で、交換用フラグメントは船体のサイズに応じて、1秒間に %s/%s/%s/%s 回発射されます。
+
+このハルモッドはフラグメント武器が機能するために必要です。ハルモッドが存在しないか、スウォーム内に十分なフラグメントがない場合、フラグメント武器は無効になります。",A swarm of Threat fragments roils around the ship.,最大戦闘準備を %s 減少させ、メンテナンスコストを %s 増加させます。,graphics/hullmods/fragment_swarm.png
+セカンダリー・ファブリケーター,secondary_fabricator,,,,"codex_unlockable, fragment, no_drop_salvage","Weapons, Special",20000,,,,3,6,9,15,com.fs.starfarer.api.impl.combat.threat.SecondaryFabricatorHullmod,交換用フラグメントの発射速度を %s 増加させます。,Increases the fragment replacement rate.,フラグメントの交換速度をさらに %s 増加させます。,graphics/hullmods/secondary_fabricator.png
+フラグメント・コーディネーター,fragment_coordinator,,,,"codex_unlockable, fragment, no_drop_salvage","Weapons, Special",15000,,,,3,6,9,15,com.fs.starfarer.api.impl.combat.threat.FragmentCoordinatorHullmod,艦船のフラグメント・スウォーム内の最大フラグメント数を %s 増加させます。,Increases the size of the fragment swarm around the ship.,フラグメント・スウォームのサイズをさらに %s 増加させます。,graphics/hullmods/fragment_coordinator.png
+,,,,,,,,,,,,,,,,,,,
+# シュラウデッド・ドウェラーのアイテム,,,,,,,,,,,,,,,,,,,
+ドウェラー・ハルモッド,dweller_hullmod,,,,dweller,,,,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.impl.combat.dweller.DwellerHullmod,シュラウデッド・ドウェラーのビジュアルとカスタムメカニクスを追加します。プレイヤーには表示されません。,,,
+シュラウデッド・マントル,shrouded_mantle,,,,"codex_unlockable, shrouded, no_drop_salvage",Special,,,,,3,6,9,15,com.fs.starfarer.api.impl.combat.dweller.ShroudedMantleHullmod,"艦船は、かなりの船体ダメージを受けた際に（願わくば）危険から後退しようとします。
+
+戦闘中の乗組員の死傷者は %s 増加します。",The ship recoils away from damage.,艦船は、ハンガリング・リフトによって提供される %s の治癒の恩恵を受けます。,graphics/hullmods/shrouded_mantle.png
+シュラウデッド・サンダーヘッド,shrouded_thunderhead,,,,"codex_unlockable, shrouded, no_drop_salvage","Weapons, Special",,,,,5,10,15,25,com.fs.starfarer.api.impl.combat.dweller.ShroudedThunderheadHullmod,<スクリプトによって作成されました>,The ship fires Rift Lightning bolts at recent targets of its weapons.,,graphics/hullmods/shrouded_thunderhead.png
+シュラウデッド・レンズ,shrouded_lens,,,,"codex_unlockable, shrouded, no_drop_salvage",Special,,,,,3,6,9,15,com.fs.starfarer.api.impl.combat.dweller.ShroudedLensHullmod,<スクリプトによって作成されました>,"The Lens automatically focuses on nearby targets, dealing damage in an area.",,graphics/hullmods/shrouded_lens.png
+,,,,,,,,,,,,,,,,,,,
+# 艦船スキンバフ,,,,,,,,,,,,,,,,,,,
+第14戦闘群,fourteenth,,,,,,,,TRUE,,0,0,0,0,data.hullmods.Fourteenth,この艦船は、ヘゲモニーを設立した元の第14ドメイン戦闘群の生き残りです。これは、ドメイン海軍の「決定的な戦闘」ドクトリンの代表的な標本であり、特に、より重い装甲プレートを取り付けることを可能にする一連の急進的な構造改造（崩壊前の工業手法で実施）によって示されています。標準ユニットを %s 増加させ、速度と機動性を %s 減少させるだけです。非常に調整されたエネルギーシステムは、このハルの標準的な例に対してフラックスのスループットと容量を %s 増加させます。,,,graphics/hullmods/fourteenth.png
+軍事化されたヘゲモニー補助艦,heg_militarized,,,,hide_in_codex,,,,TRUE,,0,0,0,0,data.hullmods.Militarized,この艦船は、ヘゲモニーの補助リストに載っているか、かつて載っていました。ヘゲモニー海軍の造船所で適用されたアッパーマーキットにより、船体のサイズに応じて %s/%s/%s/%s の装甲強度の増加に対して性能の損失はありません。コアパワーシステムは軍事基準にアップグレードされ、全体的な取り扱いが %s 改善され、フラックス容量が %s 増加し、フラックス散逸が %s 増加し、最大バーニングレベルが %s 増加します。,,,graphics/hullmods/militarized_hegemony_auxiliary.png
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+# 永続的な艦船デバフ,,,,,,,,,,,,,,,,,,,
+損傷した装甲,comp_armor,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedArmor,"この艦船の装甲は過去のある時点で重大かつ修復不可能なダメージを受けたか、製造プロセスで重大なエラーが発生しました。装甲評価は %s 減少します。
+
+展開から回復するための供給コストは %s 減少します。",,,graphics/hullmods/compromised_armor.png
+損傷した船体,comp_hull,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedHull,"この艦船の船体は過去のある時点で重大かつ修復不可能なダメージを受けたか、製造プロセスで重大なエラーが発生しました。船体の完全性は %s 減少します。
+
+展開から回復するための供給コストは %s 減少します。",,,graphics/hullmods/compromised_hull.png
+劣化したエンジン,degraded_engines,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.DegradedEngines,"戦闘ダメージ、製造欠陥、または不適切なメンテナンスのサイクルによるものか、この船のエンジンは恒久的に戦闘性能が劣化しています。
+
+戦闘時の最高速度と機動性が%s減少しました。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/degraded_engines.png
+劣化したドライブフィールド,degraded_drive_field,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,data.hullmods.DegradedDriveField,"戦闘ダメージ、製造欠陥、または不適切なメンテナンスのサイクルによるものか、この船のドライブフィールドは恒久的に性能が劣化しています。
+
+最大燃焼レベルが%s減少しました。センサープロファイルが%s増加しました。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/degraded_drivefield.png
+故障した電力網,faulty_grid,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.FaultyPowerGrid,"戦闘ダメージ、製造欠陥、または不適切なメンテナンスのサイクルによるものか、この船の電力網はピーク性能を達成することができません。
+
+フラックス容量が%s減少しました。フラックス放散率が%s減少しました。センサープロファイルが%s増加しました。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/faulty_power_grid.png
+フェイズコイルの不安定性,unstable_coils,,,,"dmod, phaseDamage",,,,TRUE,,0,0,0,0,data.hullmods.PhaseCoilInstability,"この船のフェイズコイルは微妙な欠陥のために適切にキャリブレーションすることができません。フェイズタイムボーナスが%s減少し、ピーク性能時間が%s減少し、戦闘準備が劣化する速度が%s増加します。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/phase_coil_instability.png
+構造的損傷,comp_structure,,,,"dmod, damageStruct, destroyedDamageAlways",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStructure,"この船の船体は過去に極度の損傷を受けており、分解する寸前だった可能性があります。装甲評価が%s減少し、船体の完全性が%s減少しました。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/structural_damage.png
+グリッチしたセンサーアレイ,glitched_sensors,,,,"dmod, damage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.GlitchedSensorArray,"この船のセンサーアレイは完全な船体のオーバーホールを除いて修理不可能なほど損傷しています。戦闘時の武器射程が%s減少しました。センサー強度が%s減少しました。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/glitched_sensor_array.png
+故障した通信,malfunctioning_comms,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.MalfunctioningComms,"通信システムは深刻な損傷を受けており、戦場のジャミングを突破することがさらに困難になっています。戦闘機の交戦範囲が%s減少しました。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/malfunctioning_comms.png
+欠陥のある工場,defective_manufactory,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DefectiveManufactory,"戦闘機のシャーシを生産する工場は信頼性が低く、ほとんどの部品に軽微な欠陥があります。戦闘機の速度が%s減少し、受けるダメージが%s増加しました。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/defective_manufactory.png
+損傷したフライトデッキ,damaged_deck,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DamagedFlightDeck,"この船のフライトデッキは大きな損傷を受けており、通常の操作に深刻な影響を与えています。代替戦闘機を発進させるまでの時間が%s増加しました。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/damaged_flight_deck.png
+信頼性の低いサブシステム,fragile_subsystems,,,,"dmod, damage, peak_time, notPhase",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FragileSubsystems,"冗長部品の広範な喪失により、ピーク稼働時間が%s減少し、戦闘準備が劣化する速度が%s増加します。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/fragile_subsystems.png
+妥協されたストレージ,comp_storage,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStorage,"この船のストレージ容量は大幅に劣化しています。乗組員、貨物、燃料の容量が%s減少しました。
+
+展開からの回復にかかる補給コストが%s減少しました。",,,graphics/hullmods/compromised_storage.png
+増加したメンテナンス,increased_maintenance,,,,"dmod, damage, civ, notAuto",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.IncreasedMaintenance,"月間メンテナンスの補給コストが%s増加します。必要な最低乗組員が%s増加します。最大戦闘準備が%s減少します。
+
+展開からの回復にかかる補給コストが%s減少しました。","Increases maintenance cost and crew requirements, decreases maximum combat readiness.",,graphics/hullmods/increased_maintenance.png
+不安定な燃料インジェクター,erratic_injector,,,,"dmod, damage, civ",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ErraticInjector,"燃料使用量が%s増加し、ゼロフラックスブーストが%s su/秒減少します。
+
+展開からの回復にかかる補給コストが%s減少しました。",Increases fuel use and decreases the zero-flux boost.,,graphics/hullmods/erratic_injector.png
+故障した自動システム,faulty_auto,,,,"dmod, damage, notAuto",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FaultyAutomatedSystems,"必要な最低乗組員が%s増加し、最大戦闘準備が%s減少します。
+
+展開からの回復にかかる補給コストが%s減少しました。","Increases minimum crew required, decreases maximum combat readiness.",,graphics/hullmods/faulty_automated_systems.png
+損傷した武器マウント,damaged_mounts,,,,"dmod, damage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DamagedWeaponMounts,"武器の旋回速度が%s減少し、反動が%s増加します。
+
+展開からの回復にかかる補給コストが%s減少しました。",Reduces weapon turn rate and increases recoil.,,graphics/hullmods/damaged_weapon_mounts.png
+劣化したライフサポート,degraded_life_support,,,,"dmod, damage, notAuto",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DegradedLifeSupport,"最大乗組員数が %s 減少し、最大戦闘準備度が %s 減少します。
+
+展開から回復するための補給コストが %s 減少します。",Decreases maximum crew capacity and combat readiness.,,graphics/hullmods/degraded_life_support.png
+劣化したシールド,degraded_shields,,,,"dmod, damage, reqShields",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DegradedShields,"シールドが受けるダメージ量が %s 増加します。
+
+展開から回復するための補給コストが %s 減少します。",Increases damage taken by shields.,,graphics/hullmods/degraded_shields.png
+,,,,,,,,,,,,,,,,,,,
+破壊された武器マウント,destroyed_mounts,,,,dmod,,,,TRUE,,0,0,0,0,data.hullmods.DestroyedWeaponMounts,この船の元々の武器マウントの一部が修理不可能なほど損傷しており、もはや使用できません。,,,graphics/hullmods/damaged_weapon_mounts.png
+不適切な改造,ill_advised,,,,dmod,,,,TRUE,,0,0,0,0,data.hullmods.IllAdvised,この船体のシステムは仕様から大幅に改造されており、おそらく認定されたエンジニアの監視なしに行われています。システムは通常の条件下では正しく機能しているように見えますが、ストレスがかかると重大な故障が発生する可能性があります。,,,graphics/hullmods/illadvised.png

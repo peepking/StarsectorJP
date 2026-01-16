@@ -1,0 +1,94 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+population,人口とインフラ,,,10,3,,,"population, unraidable, no_saturation_bombardment",,graphics/icons/industry/population.png,com.fs.starfarer.api.impl.campaign.econ.impl.PopulationAndInfrastructure,特定の人口を支えるために必要な基本的なインフラストラクチャーであり、古びた軌道ハブモジュールからメガシティ、そしてその間のすべてを含みます。,100,
+farming,農業,15,60,,1,,,"farming, industry, rural",,graphics/icons/industry/farming.png,com.fs.starfarer.api.impl.campaign.econ.impl.Farming,農業は文明と同じくらい古い貿易と技術です。何千年もの間、人類は自然の、生物的に改良された、そして人工の生物機械の力を食料として利用してきました。そうであったように、これからも人間が人間である限りそうであり続けるでしょう。,200,LOW
+aquaculture,水産養殖,50,60,,3,,,"farming, industry, rural",,graphics/icons/industry/aquaculture.png,com.fs.starfarer.api.impl.campaign.econ.impl.Farming,水の惑星での農業は、適切な種のバイオエンジニアリングにかなりの初期投資を必要としますが、一度プロセスが軌道に乗ると、藻類農場や漁業は専門的な訓練や設備をほとんど必要とせずに住民によって運営されることができます。,210,MEDIUM
+mining,鉱業,20,60,,2,,,"mining, industry, industrial",,graphics/icons/industry/mining.png,com.fs.starfarer.api.impl.campaign.econ.impl.Mining,金属および金属類鉱石、有機物、揮発性化合物はすべて、重機、特別なインフラ、熟練した労働力を必要とします。過酷な作業は特定のタイプの人々を引き寄せ、時折目をつぶることを望まない管理者は、協力的な人員が不足することになるかもしれません。,300,MEDIUM
+techmining,テクノロジー採掘,30,45,,2,,,"techmining, industry, industrial",,graphics/icons/industry/techmining.png,com.fs.starfarer.api.impl.campaign.econ.impl.TechMining,テックマイニングは、ドメインの遺跡から貴重なアーティファクトを回収する多様な技術です。特有の危険に対処するための特別な道具と、良い収穫を得るためにどこを探すべきかを知るための専門的な判断が必要です。最も古いテックマイナーたちは奇妙な連中で、幸運のお守りを握りしめ、儀式なしでは働こうとしません。,400,MEDIUM
+refining,精製,45,90,,3,,,"refining, industry, industrial",,graphics/icons/industry/refining.png,com.fs.starfarer.api.impl.campaign.econ.impl.Refining,ここにある精錬工場は、鉱石と超トランスプルトニウム鉱石をそれぞれ金属と超トランスプルトニウムに変換します。通常、最も危険な作業には遠隔操作ロボットが使用されます。,500,MEDIUM
+spaceport,宇宙港,10,15,,3,,megaport,"spaceport, important, structure",,graphics/icons/industry/spaceport.png,com.fs.starfarer.api.impl.campaign.econ.impl.Spaceport,貨物の積み下ろしや基本的な宇宙船の修理を行うための施設です。宇宙港のないコロニーは、実質的に星間貿易にアクセスできません。,150,HIGH
+megaport,メガポート,60,150,,4,spaceport,,"spaceport, structure",,graphics/icons/industry/megaport.png,com.fs.starfarer.api.impl.campaign.econ.impl.Spaceport,星々が土に触れることができる広大な星港。規則正しいランダーガントリーと装甲燃料タンクは、アクセス道路と短距離貨物トラムによって結ばれ、倉庫地区や物流ターミナルの広がりを支え、コロニーへのアクセスを大幅に向上させています。,151,EXTREME
+lightindustry,軽工業,45,90,,8,,,"lightindustry, industry, rural",,graphics/icons/industry/light_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.LightIndustry,国内および高級品を生産します。低技術の性質により、崩壊の影響を比較的受けにくい数少ない産業の一つです。,1400,MEDIUM
+heavyindustry,重工業,100,120,,12,,orbitalworks,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/heavy_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,重工業機器、資材、武器の生産のための中央集権的な製造インフラ。かろうじて宇宙航行可能な宇宙船を生産することも可能で、製造品質を向上させるためにナノフォージを設置することができます。,1600,HIGH
+orbitalworks,軌道工場,60,150,,12,heavyindustry,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/orbital_works.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"重工業機器、資材、武器の生産のための中央集権的な製造インフラ。かろうじて宇宙航行可能な宇宙船の生産も可能で、ナノフォージを設置することで生産品質を向上させることができます。
+
+船舶建造をさらに促進する軌道コンポーネントでアップグレードされており、製造欠陥が減少します。",1700,HIGH
+fuelprod,燃料生産,90,120,,10,,,"fuelprod, industry, industrial",,graphics/icons/industry/fuel_production.png,com.fs.starfarer.api.impl.campaign.econ.impl.FuelProduction,この施設は星間文明の命の源である宇宙船用燃料を生産します。ドメイン技術の部品が不足しているため、燃料生産は手間がかかり、遅いプロセスです。,1800,HIGH
+#advfuelprod,高度な燃料生産,120,60,,5,fuelprod,,fuelprod,,graphics/icons/industry/advanced_fuel_production.png,com.fs.starfarer.api.impl.campaign.econ.impl.FuelProduction,巨大なドメイン技術の施設が星間文明の命の源である宇宙船燃料を生産しています。,1900,
+commerce,商業,90,90,,3,,,"industry, urban",,graphics/icons/industry/commerce.png,com.fs.starfarer.api.impl.campaign.econ.impl.TradeCenter,独立した貿易を促進するための規制、助成金、インフラ。管理者がコロニーに対して直接的に持つ制御の度合いを大幅に減少させます。,1950,MEDIUM
+station_base,軌道ステーション,,,,,,,"station, parent_item, important, structure",station,graphics/icons/industry/station_category.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"$marketName近くの友好艦隊を支援できる宇宙ステーションであり、爆撃を試みる前に破壊する必要があります。
+
+いくつかのバリエーションがあり、一般的には全体的な強さよりも戦術的アプローチの違いがあります。",2000,
+orbitalstation,軌道ステーション - 低技術,50,90,,3,,battlestation,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:station1_Standard,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"重装甲と中程度の火力を備えた低技術の宇宙ステーションです。
+
+爆撃を試みる前に、まずは減少させる必要があります。",2010,
+battlestation,バトルステーション - ローテク,100,120,,4,orbitalstation,starfortress,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:station2_Standard,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"重装のバスティオンと対空シタデルを備えた宇宙ステーション。
+
+爆撃を試みる前に、まずはこれを減少させる必要があります。",2020,
+starfortress,スター・フォートレス - ローテク,200,180,,5,battlestation,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:station3_Standard,
+fleetName:Star Fortress
+}",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"装甲を強化した戦闘基地で、メルロン級防衛ドローンと広範囲な機雷原を備えています。
+
+爆撃を試みる前に、まずはこれを減少させる必要があります。",2030,
+orbitalstation_mid,中間軌道ステーション,50,90,,3,,battlestation_mid,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:station1_midline_Standard,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"一方に重火力を備え、迅速な軸回転を特徴とする中間軌道の宇宙ステーションです。
+
+ bombardmentを試みる前に、まずは減少させる必要があります。",2040,
+battlestation_mid,ミッドライン・バトルステーション,100,120,,4,orbitalstation_mid,starfortress_mid,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:station2_midline_Standard,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"ミサイル支援モジュールを装備した宇宙ステーションです。
+
+爆撃を試みる前に、まずは減少させる必要があります。",2050,
+starfortress_mid,スター・フォートレス - ミッドライン,200,180,,5,battlestation_mid,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:station3_midline_Standard,
+fleetName:Star Fortress
+}",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"装甲を強化した戦闘ステーションで、ラヴェリン級防衛ドローンと広範囲な機雷原を備えています。
+
+爆撃を試みる前に、これを減少させる必要があります。",2060,
+orbitalstation_high,軌道ステーション - ハイテク,50,90,,3,,battlestation_high,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:station1_hightech_Standard,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"重厚な回転シールド、戦闘機の補充、中程度の火力を備えたハイテク宇宙ステーションです。
+
+ bombardmentを試みる前に、減少させる必要があります。",2070,
+battlestation_high,バトルステーション - ハイテク,100,120,,4,orbitalstation_high,starfortress_high,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:station2_hightech_Standard,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"重火力を備えた防御要塞が強化された宇宙ステーション。
+
+爆撃を試みる前に、これを減少させる必要があります。",2080,
+starfortress_high,スター・フォートレス - ハイテク,200,180,,5,battlestation_high,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:station3_hightech_Standard,
+fleetName:Star Fortress
+}",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"強化装甲された戦闘ステーションで、ガーゴイル級防衛ドローンと長距離標的地雷テレポーターを備えています。
+
+爆撃を試みる前に、まずは減少させる必要があります。",2090,
+grounddefenses,地上防衛システム,30,60,,2,,heavybatteries,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/ground_defenses.png,com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses,分散した半自律型の小型隠密武器施設のネットワークであり、直接的な地上攻撃や単純な襲撃の見通しを攻撃者にとって非常に高コストなものにします。これらの防御を抑えるには、圧倒的な軌道爆撃や大規模に不均衡なアクティブスクリーンが必要です。,2200,
+heavybatteries,重火器,60,90,,3,grounddefenses,,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/heavy_batteries.png,com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses,装甲された地下バッテリーは、小型で隠れた武器施設の分散ネットワークを補完します。地上に設置されたバッテリーは、驚異的な火力を持っていますが、その火力は地上作戦を困難にすることでしか現れません。どの宇宙艦の艦長も、彼らの射程内に入るほど愚かではありません。,2300,
+patrolhq,パトロール本部,60,60,,8,,militarybase,"patrol, unraidable, tactical_bombardment, structure",,graphics/icons/industry/patrol_hq.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,星系全体に力を投影するために必要なハンガー、整備場、指揮/制御センター、兵舎、物流作業。設立されると、軍事化されたパトロールが海賊を狩り、友好的な輸送船団を保護します。,2400,
+militarybase,軍事基地,90,120,,10,patrolhq,highcommand,"military, unraidable, tactical_bombardment, industry",,graphics/icons/industry/military_base.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,これらの施設は、星系間での軍事展開を可能にします。このような軍事行動は、数十隻、あるいは数百隻の星艦と、何千人もの士官、乗組員、兵士の調整を必要とする大規模な物流作戦です。,2500,
+highcommand,高級指揮部,30,120,,14,militarybase,,"command, unraidable, tactical_bombardment, industry",,graphics/icons/industry/high_command.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,トランステラ帝国は、全星系の資源に対する権限を持つ優れた士官と官僚のコープスによってのみ実現可能です。確立された高級指揮は、セクター全体で軍事作戦を組織し、実行することを可能にします。,2600,
+lionsguard,ライオンズガード本部,90,60,,6,,,"military, unraidable, tactical_bombardment, structure, codex_unlockable",,graphics/icons/industry/lions_guard.png,com.fs.starfarer.api.impl.campaign.econ.impl.LionsGuardHQ,フィリップ「シンドリアの獅子」アンドラダの恐れられた個人警護隊の本部。優れた訓練と、クレジットで購入できる最高の装備へのアクセスを誇り、警護隊の狂信的な忠誠心は、特典とインセンティブのシステムによって維持されており、これにより警護隊はシンドリア統合軍の通常軍から高められ、孤立しています。,2650,
+planetaryshield,惑星シールド,150,90,,3,,,"grounddefenses, structure, codex_unlockable",,graphics/icons/industry/planetary_shield.png,com.fs.starfarer.api.impl.campaign.econ.impl.PlanetaryShield,異常な仮想粒子を含む帯電したプラズマのエンベロープは、長距離爆撃や小型艦艇の侵入に対する戦闘効果を妨げる効果を生み出します。惑星シールドは中央のソースによって継続的に充電され、制御されることができ、地上攻撃のあらゆる形態に対して強力な障害物を提供します。,2700,EXTREME
+waystation,中継基地,20,60,,2,,,"waystation, structure",,graphics/icons/industry/waystation.png,com.fs.starfarer.api.impl.campaign.econ.impl.Waystation,星間艦隊のための補給および整備デポ。コロニーのアクセス性を向上させます。,155,MEDIUM
+cryosanctum,クリオサンクタム,150,90,,5,,,"cryosanctum, structure, codex_unlockable",,graphics/icons/industry/cryosanctum.png,com.fs.starfarer.api.impl.campaign.econ.impl.Cryosanctum,巨大な墓のようなボールトは、冷凍睡眠を選んでこの困難な時代を乗り越え、より文明的な時代に目覚めることを望む者たちを保存するために建設されました。冷凍ポッド自体は、何重にも冗長な支援インフラ、巨大な自動化されたセキュリティシステム、艦船対策バッテリーに比べると、そのサイズは無視できるほど小さく、すべては分岐する地下要塞迷路に収められています。,3000,EXTREME
+,,,,,,,,,,,,,,
+cryorevival,クリオリバイバル施設,60,60,,5,,,"cryorevival, structure, codex_unlockable",,graphics/icons/industry/cryorevival.png,com.fs.starfarer.api.impl.campaign.econ.impl.Cryorevival,ドメイン時代のクリオスリーパーの乗客を大量に復活させ、同化するために必要な施設。人口増加を大幅に促進します。,3200,MEDIUM

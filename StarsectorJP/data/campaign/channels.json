@@ -1,0 +1,118 @@
+{
+  "defaultChannels": [
+    "news",
+    "hegemony_public",
+    "tritachyon_public",
+    "player_intel_always",
+    "local_comm",
+    "secure_comm"
+  ],
+  "playerIntelChannels": [
+    "player_intel"
+  ],
+  "local_comm": {
+    "name": "$sender",
+    "logo": "graphics/icons/intel/comms64.png",
+    "icon": "graphics/icons/intel/comms64.png",
+    "image": "graphics/factions/player_flag.png",
+    "sound": "ui_channel_comm_local",
+    "type": "Local Comms",
+    "shortType": "Comms"
+  },
+  "secure_comm": {
+    "name": "$sender",
+    "logo": "graphics/icons/intel/comms_secure64.png",
+    "icon": "graphics/icons/intel/comms_secure64.png",
+    "image": "graphics/factions/player_flag.png",
+    "sound": "ui_channel_comm_secure",
+    "type": "Secure Comm Channel",
+    "shortType": "Comms"
+  },
+  "player_intel_always": {
+    "name": "分析と予測",
+    "subChannelOf": "player_intel",
+    "logo": "graphics/icons/intel/player.png",
+    "icon": "graphics/icons/intel/player.png",
+    "image": "graphics/factions/player_flag.png",
+    "sound": "ui_channel_intel_assessment",
+    "type": "Intelligence Assessment",
+    "shortType": "Intel"
+  },
+  "player_intel": {
+    "name": "分析と予測",
+    "logo": "graphics/icons/intel/player.png",
+    "icon": "graphics/icons/intel/player.png",
+    "image": "graphics/factions/player_flag.png",
+    "sound": "ui_channel_intel_assessment",
+    "type": "Intelligence Assessment",
+    "shortType": "Intel"
+  },
+  "player_comm_sniffer": {
+    "name": "通信スニファープログラム",
+    "logo": "graphics/icons/intel/player_comm_sniffer.png",
+    "icon": "graphics/icons/intel/player_comm_sniffer.png",
+    "image": "graphics/factions/player_flag.png",
+    "sound": "ui_channel_sniffer",
+    "type": "Comm Data Feed",
+    "shortType": "Data"
+  },
+  "news": {
+    "name": "地域の掲示板",
+    "logo": "graphics/icons/intel/news64.png",
+    "icon": "graphics/icons/intel/news64.png",
+    "image": "graphics/factions/neutral_traders.png",
+    "sound": "ui_channel_news",
+    "type": "News Report",
+    "shortType": "News"
+  },
+  "hegemony_public": {
+    "name": "ヘゲモニー放送サービス",
+    "logo": "graphics/icons/intel/hegemony_public.png",
+    "icon": "graphics/icons/intel/hegemony_public.png",
+    "image": "graphics/factions/hegemony.png",
+    "sound": "ui_channel_news",
+    "faction": "hegemony",
+    "type": "News Report",
+    "shortType": "News"
+  },
+  "hegemony_internal": {
+    "name": "ヘゲモニー情報部",
+    "logo": "graphics/icons/intel/hegemony_intelligence.png",
+    "icon": "graphics/icons/intel/hegemony_intelligence.png",
+    "image": "graphics/factions/hegemony.png",
+    "sound": "ui_channel_comm_secure",
+    "faction": "hegemony",
+    "type": "Intelligence Report",
+    "shortType": "Intel"
+  },
+  "tritachyon_public": {
+    "name": "トライ・タキオンネットワーク",
+    "logo": "graphics/icons/intel/tritachyon_public.png",
+    "icon": "graphics/icons/intel/tritachyon_public.png",
+    "image": "graphics/factions/tritachyon.png",
+    "sound": "ui_channel_news",
+    "faction": "tritachyon",
+    "type": "News Report",
+    "shortType": "News"
+  },
+  "tritachyon_internal": {
+    "name": "トライ・タキオン情報部",
+    "logo": "graphics/icons/intel/tritachyon_internal.png",
+    "icon": "graphics/icons/intel/tritachyon_internal.png",
+    "image": "graphics/factions/tritachyon.png",
+    "sound": "ui_channel_comm_secure",
+    "faction": "tritachyon",
+    "type": "Intelligence Report",
+    "shortType": "Intel"
+  },
+  "sindrian_diktat_internal": {
+    "name": "シンドリア統合軍のセキュリティ",
+    "logo": "graphics/icons/intel/diktat_intelligence.png",
+    "icon": "graphics/icons/intel/diktat_intelligence.png",
+    "image": "graphics/factions/sindrian_diktat.png",
+    "sound": "ui_channel_comm_secure",
+    "faction": "sindrian_diktat",
+    "type": "Intelligence Report",
+    "shortType": "Intel"
+  }
+}

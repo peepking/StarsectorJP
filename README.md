@@ -10,7 +10,7 @@ csvおよびjsonファイルで対応できる範囲で対応しています。
 
 別途日本語フォントが必要になります。  
 有志が作成してくれたフォントを利用してください。  
-[starsector-mod-JapaneseFonts](https://github.com/hirmiura/starsector-mod-JapaneseFonts)
+[starsector-mod-JapaneseFonts](https://github.com/hirmiura/starsector-mod-JapaneseFonts)  
 ゲームバージョンが違うと怒られるので、gameVersionの部分を現在のバージョンに書き換えて下さい。  
 
 ```json
@@ -26,5 +26,6 @@ csvおよびjsonファイルで対応できる範囲で対応しています。
 ```
 
 ## 導入方法
+
 
 StarsectorJPフォルダを`Starsector\mods`に置くだけです。

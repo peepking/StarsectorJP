@@ -1,4 +1,4 @@
-# StarsectorJP - Starsector 日本語化Mod
+# StarsectorJP - Starsector 日本語化MOD
 
 ## 概要
 

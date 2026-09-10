@@ -1,10 +1,11 @@
-# StarsectorJP
+# StarsectorJP - Starsector 日本語化Mod
 
 ## 概要
 
-Starsectorの日本語Modです。  
-csvおよびjsonファイルで対応できる範囲で対応しています。  
-機械翻訳をかけたのみで、精査は行っていないため手直しをするかもしれません。  
+Starsectorの日本語化MOD（日本語化パッチ）です。  
+Starsector本体のcsvおよびjsonファイルで対応できる範囲を日本語化しています。
+
+翻訳は機械翻訳をベースとしており、現在は精査を行っていないため、今後翻訳を修正する場合があります。
 
 ## 注意
 
